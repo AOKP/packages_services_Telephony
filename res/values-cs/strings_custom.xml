@@ -31,6 +31,7 @@
   <string name="vibrate_60_summary">Vibrovat každou minutu při odchozím hovoru</string>
   <string name="battery_mode">Úsporný režim</string>
   <string name="battery_mode_label">Nastavit síťový režim na 2G, když je zařízení zamčeno</string>
+
   <string name="number_lookup">Vyhledávání telefonních čísel</string>
   <string name="enable_forward_lookup_title">Dopředné vyhledávání</string>
   <string name="enable_forward_lookup_summary">Zobrazit blízká místa při hledání ve vytáčení</string>
@@ -42,4 +43,7 @@
   <string name="choose_forward_lookup_provider_title">Zvolit poskytovatele dopředného hledání</string>
   <string name="choose_people_lookup_provider_title">Zvolit poskytovatele hledání lidí</string>
   <string name="choose_reverse_lookup_provider_title">Zvolit poskytovatele zpětného hledání</string>
+
+  <string name="perm_change_mobile_network">Změnit typ sítě (2G/3G/4G)</string>
+  <string name="perm_change_mobile_network_desc">Aplikace s tímto oprávněním může kdykoliv změnit mezi 2G, 3G a 4G data. 3G a 4G je rychlejší, ale náročnější na využití baterie a také může stát více peněz.</string>
 </resources>
