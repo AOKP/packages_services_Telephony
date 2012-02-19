@@ -31,4 +31,6 @@
   <string name="vibrate_60_summary">Vibrovat každou minutu při odchozím hovoru</string>
   <string name="battery_mode">Úsporný režim</string>
   <string name="battery_mode_label">Nastavit síťový režim na 2G, když je zařízení zamčeno</string>
+  <string name="perm_change_mobile_network">Změnit typ sítě (2G/3G/4G)</string>
+  <string name="perm_change_mobile_network_desc">Aplikace s tímto oprávněním může kdykoliv změnit mezi 2G, 3G a 4G data. 3G a 4G je rychlejší, ale náročnější na využití baterie a také může stát více peněz.</string>
 </resources>
