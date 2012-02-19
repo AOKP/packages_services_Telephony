@@ -31,10 +31,13 @@ import android.os.Looper;
 import android.os.Message;
 import android.os.Process;
 import android.os.ServiceManager;
+import android.os.SystemProperties;
+import android.provider.Settings;
 import android.os.UserHandle;
 import android.telephony.NeighboringCellInfo;
 import android.telephony.CellInfo;
 import android.telephony.ServiceState;
+import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -45,6 +48,7 @@ import com.android.internal.telephony.Phone;
 import com.android.internal.telephony.CallManager;
 import com.android.internal.telephony.CommandException;
 import com.android.internal.telephony.PhoneConstants;
+import com.android.internal.telephony.RILConstants;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -64,6 +68,8 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
     private static final int CMD_ANSWER_RINGING_CALL = 4;
     private static final int CMD_END_CALL = 5;  // not used yet
     private static final int CMD_SILENCE_RINGER = 6;
+    private static final int CMD_TOGGLE_LTE = 7;
+    private static final int CMD_TOGGLE_2G = 8;
 
     /** The singleton instance. */
     private static PhoneInterfaceManager sInstance;
@@ -297,8 +303,53 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
         mApp.startActivity(intent);
     }
 
-    public void toggleLTE(boolean on) {
+    public void toggleLTE() {
+        int preferredNetworkMode = RILConstants.PREFERRED_NETWORK_MODE;
+        if (TelephonyManager.getLteOnCdmaModeStatic() == PhoneConstants.LTE_ON_CDMA_TRUE) {
+            preferredNetworkMode = PhoneConstants.NT_MODE_GLOBAL;
+        }
+        int network = Settings.Secure.getInt(mApp.getContentResolver(),
+                Settings.Global.PREFERRED_NETWORK_MODE, preferredNetworkMode);
+        switch (network) {
+            case PhoneConstants.NT_MODE_GSM_ONLY:
+            case PhoneConstants.NT_MODE_WCDMA_PREF:
+                network = PhoneConstants.NT_MODE_LTE_GSM_WCDMA;
+                break;
+            case PhoneConstants.NT_MODE_LTE_GSM_WCDMA:
+                network = PhoneConstants.NT_MODE_WCDMA_PREF;
+                break;
+            case PhoneConstants.NT_MODE_GSM_UMTS:
+                network = PhoneConstants.NT_MODE_GLOBAL;
+                break;
+            case PhoneConstants.NT_MODE_GLOBAL:
+                network = PhoneConstants.NT_MODE_GSM_UMTS;
+                break;
+            case PhoneConstants.NT_MODE_CDMA:
+                network = PhoneConstants.NT_MODE_LTE_CDMA_EVDO;
+                break;
+            case PhoneConstants.NT_MODE_LTE_CDMA_EVDO:
+                network = PhoneConstants.NT_MODE_CDMA;
+                break;
+        }
+        mPhone.setPreferredNetworkType(network,
+                mMainThreadHandler.obtainMessage(CMD_TOGGLE_LTE));
+        Settings.Secure.putInt(mApp.getContentResolver(),
+                Settings.Global.PREFERRED_NETWORK_MODE, network);
+
         return;
+    }
+
+    public void toggle2G(boolean on) {
+        int network = -1;
+        if (on) {
+            network = PhoneConstants.NT_MODE_GSM_ONLY;
+        } else {
+            network = PhoneConstants.NT_MODE_WCDMA_PREF;
+        }
+        mPhone.setPreferredNetworkType(network,
+                mMainThreadHandler.obtainMessage(CMD_TOGGLE_2G));
+        Settings.Secure.putInt(mApp.getContentResolver(),
+                Settings.Global.PREFERRED_NETWORK_MODE, network);
     }
 
     private boolean showCallScreenInternal(boolean specifyInitialDialpadState,
