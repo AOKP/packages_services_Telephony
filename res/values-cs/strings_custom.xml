@@ -16,8 +16,9 @@
  * limitations under the License.
  */
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="preference_category_interface">Interface</string>
-    <string name="non_intrusive_incall_title">Non intrusive</string>
-    <string name="non_intrusive_incall_summary">Use non intrusive dialog for incoming calls</string>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="preference_category_interface">Rozhraní</string>
+    <string name="non_intrusive_incall_title">Nenápadné hovory</string>
+    <string name="non_intrusive_incall_summary">Použít nenápadné oznámení příchozího hovoru</string>
 </resources>
