@@ -65,6 +65,7 @@
     <string name="summary_do_nothing">do nothing</string>
     <string name="summary_mute_ringer">mute the ringer</string>
     <string name="summary_dismiss_call">dismiss the call</string>
+
     <!-- Smart Phone Call -->
     <string name="smart_phone_call_title">Smart phone call</string>
     <string name="smart_phone_call_summary">Put on your ear, and this will automatically call current number in message or dialer</string>	
@@ -87,5 +88,10 @@
     <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> messages were blocked</string>
     <string name="blacklist_notification_list_private">Private</string>
     <string name="unblock_number">Unblock</string>	
+
+    <!-- Permission for notification-bar network toggle -->
+    <string name="perm_change_mobile_network">change network mode (2G/3G/4G)</string>
+    <string name="perm_change_mobile_network_desc">Allows the app to change between 2G, 3G and 4G data at any time. 3G and 4G is faster, but consumes more battery and may cause additional cost.</string>
+
 </resources>
 
