@@ -42,4 +42,12 @@
   <string name="choose_forward_lookup_provider_title">Zvolit poskytovatele dopředného hledání</string>
   <string name="choose_people_lookup_provider_title">Zvolit poskytovatele hledání lidí</string>
   <string name="choose_reverse_lookup_provider_title">Zvolit poskytovatele zpětného hledání</string>
+  <string name="network_4G_3G">3G/4G preferováno</string>
+  <string name="network_4G_only">Jen 4G</string>
+  <string name="network_3G_only">Jen 3G</string>
+  <string name="network_3G_auto">2G/3G automaticky</string>
+  <string name="network_3G">2G/3G preferováno</string>
+  <string name="network_2G">Jen 2G</string>
+  <string name="perm_change_mobile_network">Změnit typ sítě (2G/3G/4G)</string>
+  <string name="perm_change_mobile_network_desc">Aplikace s tímto oprávněním může kdykoliv změnit mezi 2G, 3G a 4G data. 3G a 4G je rychlejší, ale náročnější na využití baterie a také může stát více peněz.</string>
 </resources>
