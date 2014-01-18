@@ -22,4 +22,10 @@
     <string name="preference_category_interface">界面</string>
     <string name="non_intrusive_incall_title">免打扰</string>
     <string name="non_intrusive_incall_summary">在来电时使用免打扰对话框</string>
+    <string name="incall_vibration">来电振动</string>
+    <string name="vibrate_outgoing">接听时振动</string>
+    <string name="vibrate_call_waiting">呼叫保持时振动</string>
+    <string name="vibrate_hangup">应答时振动</string>
+    <string name="vibrate_60_title">每分钟振动</string>
+    <string name="vibrate_60_summary">呼叫通话时以60秒为周期每分钟振动</string>
 </resources>
