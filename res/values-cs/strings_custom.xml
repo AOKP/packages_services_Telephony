@@ -29,4 +29,7 @@
     <string name="vibrate_hangup">Vibrace po zavěšení</string>
     <string name="vibrate_60_title">Vibrace každou minutu</string>
     <string name="vibrate_60_summary">Vibrovat každou minutu při odchozím hovoru</string>
+    <!-- Battery Saving Mode -->
+    <string name="battery_mode">Úsporný režim</string>
+    <string name="battery_mode_label">Nastavit síťový režim na 2G, když je zařízení zamčeno</string>
 </resources>
