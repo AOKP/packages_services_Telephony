@@ -28,4 +28,6 @@
     <string name="vibrate_hangup">应答时振动</string>
     <string name="vibrate_60_title">每分钟振动</string>
     <string name="vibrate_60_summary">呼叫通话时以60秒为周期每分钟振动</string>
+    <string name="battery_mode">省电模式</string>
+    <string name="battery_mode_label">当设备锁定时使用2G网络</string>
 </resources>
