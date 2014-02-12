@@ -125,11 +125,6 @@ public class BatterySaverManager extends BroadcastReceiver {
     };
 
     private void resetNetwork() {
-        if (updateDefault) {
-            // cancel changing network mode if device is unlocked before 30 second delay
-            modeHandler.removeCallbacksAndMessages(null);
-            return;
-        }
         updateDefault = true;
         // reset network type to original state
         int storedNetworkMode = mStoredNetwork.getInt(STORED_NETWORK_TYPE_KEY, preferredNetworkMode);
