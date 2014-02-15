@@ -1987,6 +1987,95 @@ public class CallFeaturesSetting extends PreferenceActivity
         }
     }
 
+    private void saveLookupProviderSwitches(Preference pref, Boolean newValue) {
+        if (DBG) log("saveLookupProviderSwitches()");
+
+        if (pref == mEnableForwardLookup) {
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.ENABLE_FORWARD_LOOKUP,
+                    newValue ? 1 : 0);
+        } else if (pref == mEnableReverseLookup) {
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.ENABLE_REVERSE_LOOKUP,
+                    newValue ? 1 : 0);
+        }
+    }
+
+    private void initLookupProviders() {
+        if (DBG) log("initLookupProviders()");
+
+        String[] fEntries = getApplicationContext().getResources()
+                .getStringArray(R.array.forward_lookup_provider_names);
+        String[] fEntryValues = getApplicationContext().getResources()
+                .getStringArray(R.array.forward_lookup_providers);
+
+        String[] rEntries = getApplicationContext().getResources()
+                .getStringArray(R.array.reverse_lookup_provider_names);
+        String[] rEntryValues = getApplicationContext().getResources()
+                .getStringArray(R.array.reverse_lookup_providers);
+
+        mChooseReverseLookupProvider.setEntries(rEntries);
+        mChooseReverseLookupProvider.setEntryValues(rEntryValues);
+
+        mChooseForwardLookupProvider.setEntries(fEntries);
+        mChooseForwardLookupProvider.setEntryValues(fEntryValues);
+    }
+
+    private void restoreLookupProviderSwitches() {
+        if (DBG) log("restoreLookupProviderSwitches()");
+
+        mEnableForwardLookup.setChecked(Settings.System.getInt(
+                getContentResolver(),
+                Settings.System.ENABLE_FORWARD_LOOKUP, 1) != 0 ? true : false);
+        mEnableReverseLookup.setChecked(Settings.System.getInt(
+                getContentResolver(),
+                Settings.System.ENABLE_REVERSE_LOOKUP, 1) != 0 ? true : false);
+    }
+
+    private void restoreLookupProviders() {
+        if (DBG) log("restoreLookupProviders()");
+
+        String fProvider = Settings.System.getString(
+                getContentResolver(),
+                Settings.System.FORWARD_LOOKUP_PROVIDER);
+
+        if (fProvider == null) {
+            mChooseForwardLookupProvider.setValueIndex(0);
+            saveLookupProviders(mChooseForwardLookupProvider,
+                    (String) mChooseForwardLookupProvider.getEntryValues()[0]);
+        } else {
+            mChooseForwardLookupProvider.setValue(fProvider);
+        }
+
+        String rProvider = Settings.System.getString(
+                getContentResolver(),
+                Settings.System.REVERSE_LOOKUP_PROVIDER);
+
+        if (rProvider == null) {
+            mChooseReverseLookupProvider.setValueIndex(0);
+            saveLookupProviders(mChooseReverseLookupProvider,
+                    (String) mChooseReverseLookupProvider.getEntryValues()[0]);
+        } else {
+            mChooseReverseLookupProvider.setValue(rProvider);
+        }
+    }
+
+    private void saveLookupProviders(Preference pref, String newValue) {
+        if (DBG) log("saveLookupProviders()");
+
+        if (pref == mChooseForwardLookupProvider) {
+            Settings.System.putString(
+                    getContentResolver(),
+                    Settings.System.FORWARD_LOOKUP_PROVIDER,
+                    newValue);
+        } else if (pref == mChooseReverseLookupProvider) {
+            Settings.System.putString(
+                    getContentResolver(),
+                    Settings.System.REVERSE_LOOKUP_PROVIDER,
+                    newValue);
+        }
+    }
+
     /**
      * Enumerates existing VM providers and puts their data into the list and populates
      * the preference list objects with their names.
