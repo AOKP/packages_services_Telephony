@@ -18,9 +18,13 @@
  */
 -->
 <resources>
-  <string name="mwi_notification_title">Üzenet várakozás kijelzés</string>
-  <string name="mwi_notification_summary">Üzenet megjelenítése várakozó hangpostánál</string>
-  <string name="preference_category_interface">Felület</string>
-  <string name="non_intrusive_incall_title">Nem tolakodó</string>
-  <string name="non_intrusive_incall_summary">Nem tolakodó ablak használata bejövő hívásnál</string>
+  <string name="non_intrusive_incall_title">Niet opdringerig</string>
+  <string name="incall_vibration">Trillen tijdens bellen</string>
+  <string name="vibrate_outgoing">Trillen bij opnemen</string>
+  <string name="vibrate_call_waiting">Trillen bij wisselgesprek</string>
+  <string name="vibrate_hangup">Trillen bij ophangen</string>
+  <string name="vibrate_60_title">Elke minuut trillen</string>
+  <string name="vibrate_60_summary">Trilt op het 60 seconden teken van elke minuut bij uitgaande gesprekken</string>
+  <string name="battery_mode">batterij besparende mode</string>
+  <string name="battery_mode_label">Zet netwerk naar 2G wanneer het apparaat is vergrendeld</string>
 </resources>

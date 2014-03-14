@@ -17,10 +17,4 @@
  * limitations under the License.
  */
 -->
-<resources>
-  <string name="mwi_notification_title">Üzenet várakozás kijelzés</string>
-  <string name="mwi_notification_summary">Üzenet megjelenítése várakozó hangpostánál</string>
-  <string name="preference_category_interface">Felület</string>
-  <string name="non_intrusive_incall_title">Nem tolakodó</string>
-  <string name="non_intrusive_incall_summary">Nem tolakodó ablak használata bejövő hívásnál</string>
-</resources>
+<resources/>
