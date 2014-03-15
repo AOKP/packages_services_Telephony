@@ -65,5 +65,8 @@
     <string name="summary_do_nothing">do nothing</string>
     <string name="summary_mute_ringer">mute the ringer</string>
     <string name="summary_dismiss_call">dismiss the call</string>
+    <!-- Smart Phone Call -->
+    <string name="smart_phone_call_title">Smart phone call</string>
+    <string name="smart_phone_call_summary">Put on your ear, and this will automatically call current number in message or dialer</string>	
 </resources>
 
