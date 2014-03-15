@@ -18,17 +18,17 @@
  */
 -->
 <resources>
-  <string name="mwi_notification_title">Индикатор ожидания сообщения</string>
+  <string name="mwi_notification_title">Индикатор ожидания</string>
   <string name="mwi_notification_summary">Показывать индикатор ожидания сообщения уведомлений голосовой почты</string>
   <string name="preference_category_interface">Интерфейс</string>
-  <string name="non_intrusive_incall_title">Ненавязчивый</string>
+  <string name="non_intrusive_incall_title">Ненавязчивый режим</string>
   <string name="non_intrusive_incall_summary">Использовать ненавязчивое отображение входящих вызовов</string>
-  <string name="incall_vibration">Вибросигнал во время звонка</string>
-  <string name="vibrate_outgoing">Вибросигнал при ответе</string>
-  <string name="vibrate_call_waiting">Вибросигнал при ожидании</string>
-  <string name="vibrate_hangup">Вибросигнал по окончании звонка</string>
-  <string name="vibrate_60_title">Вибросигнал каждую минуту</string>
-  <string name="vibrate_60_summary">Вибросигнал каждые 60 секунд во время исходящих звонков</string>
+  <string name="incall_vibration">Вибрация во время звонка</string>
+  <string name="vibrate_outgoing">Вибрация при ответе</string>
+  <string name="vibrate_call_waiting">Вибрация при ожидании</string>
+  <string name="vibrate_hangup">Вибрация по окончании</string>
+  <string name="vibrate_60_title">Вибрация каждую минуту</string>
+  <string name="vibrate_60_summary">Вибрация каждые 60 секунд во время исходящих звонков</string>
   <string name="battery_mode">Режим экономии батареи</string>
   <string name="battery_mode_label">Установить режим 2G, когда устройство заблокировано</string>
 </resources>

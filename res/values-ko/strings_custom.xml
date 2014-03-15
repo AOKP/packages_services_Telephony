@@ -19,7 +19,7 @@
 -->
 <resources>
   <string name="mwi_notification_title">메시지 대기 표시</string>
-  <string name="mwi_notification_summary">음성 메일 알림을 표시</string>
+  <string name="mwi_notification_summary">음성 메일 알림에 대한 메시지 대기 표시 보이기</string>
   <string name="preference_category_interface">인터페이스</string>
   <string name="non_intrusive_incall_title">거슬림 방지</string>
   <string name="non_intrusive_incall_summary">전화 수신 시에도 작업을 계속할 수 있도록 다이얼로그를 화면 아래쪽에 표시함</string>

@@ -22,13 +22,13 @@
   <string name="mwi_notification_summary">Mostra le notifiche per i messaggi in attesa in segreteria</string>
   <string name="preference_category_interface">Interfaccia</string>
   <string name="non_intrusive_incall_title">Non intrusiva</string>
-  <string name="non_intrusive_incall_summary">Utilizza modalità non intrusiva per le chiamate in arrivo</string>
-  <string name="incall_vibration">Vibrazione in chiamata</string>
+  <string name="non_intrusive_incall_summary">Non utilizzare la modalità a pieno schermo per le chiamate in arrivo</string>
+  <string name="incall_vibration">Vibrazione per chiamate entranti</string>
   <string name="vibrate_outgoing">Vibra alla risposta</string>
   <string name="vibrate_call_waiting">Vibra per chiamata in attesa</string>
   <string name="vibrate_hangup">Vibra al riaggancio</string>
   <string name="vibrate_60_title">Vibra ogni minuto</string>
-  <string name="vibrate_60_summary">Vibra al 60º secondo di ogni minuto durante una chiamata in uscita</string>
+  <string name="vibrate_60_summary">Vibra una volta ogni minuto durante una chiamata in uscita</string>
   <string name="battery_mode">Modalità risparmio energetico</string>
-  <string name="battery_mode_label">Imposta rete 2G quando il dispositivo è bloccato</string>
+  <string name="battery_mode_label">Imposta la rete 2G quando il dispositivo è bloccato</string>
 </resources>
