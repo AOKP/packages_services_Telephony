@@ -211,6 +211,8 @@ public class CallFeaturesSetting extends PreferenceActivity
     private static final String BUTTON_CHOOSE_REVERSE_LOOKUP_PROVIDER =
             "button_choose_reverse_lookup_provider";
 
+    private static final String BUTTON_SMART_PHONE_CALL_KEY = "button_smart_phone_call";
+
     private Intent mContactListIntent;
 
     /** Event for Async voicemail change call */
@@ -303,6 +305,8 @@ public class CallFeaturesSetting extends PreferenceActivity
     private ListPreference mChooseForwardLookupProvider;
     private ListPreference mChoosePeopleLookupProvider;
     private ListPreference mChooseReverseLookupProvider;
+
+    private CheckBoxPreference mSmartCall;
 
     private class VoiceMailProvider {
         public VoiceMailProvider(String name, Intent intent) {
@@ -561,6 +565,10 @@ public class CallFeaturesSetting extends PreferenceActivity
         } else if (preference == mNonIntrusiveInCall){
             Settings.AOKP.putInt(getContentResolver(), Settings.AOKP.NON_INTRUSIVE_INCALL,
                     mNonIntrusiveInCall.isChecked() ? 1 : 0);
+            return true;
+        } else if (preference == mSmartCall){
+            Settings.AOKP.putInt(getContentResolver(), Settings.AOKP.SMART_PHONE_CALLER,
+                    mSmartCall.isChecked() ? 1 : 0);
             return true;
         }
         return false;
@@ -1696,6 +1704,10 @@ public class CallFeaturesSetting extends PreferenceActivity
         mChooseReverseLookupProvider.setOnPreferenceChangeListener(this);
 
         restoreLookupProviders();
+
+        mSmartCall = (CheckBoxPreference) findPreference(BUTTON_SMART_PHONE_CALL_KEY);
+        mSmartCall.setChecked(Settings.AOKP.getInt(getContentResolver(),
+                Settings.AOKP.SMART_PHONE_CALLER, 0) != 0 ? true : false);
 
         // create intent to bring up contact list
         mContactListIntent = new Intent(Intent.ACTION_GET_CONTENT);
