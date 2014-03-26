@@ -18,7 +18,11 @@
  */
 -->
 <resources>
+  <string name="mwi_notification_title">Bericht wacht indicatie</string>
+  <string name="mwi_notification_summary">Laat bericht wacht indicatie voicemail meldingen zien</string>
+  <string name="preference_category_interface">Interface</string>
   <string name="non_intrusive_incall_title">Niet opdringerig</string>
+  <string name="non_intrusive_incall_summary">Gebruik niet opdringerige dialoog voor inkomende gesprekken</string>
   <string name="incall_vibration">Trillen tijdens bellen</string>
   <string name="vibrate_outgoing">Trillen bij opnemen</string>
   <string name="vibrate_call_waiting">Trillen bij wisselgesprek</string>

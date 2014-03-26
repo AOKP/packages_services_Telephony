@@ -17,4 +17,6 @@
  * limitations under the License.
  */
 -->
-<resources/>
+<resources>
+  <string name="preference_category_interface">واجهة المستخدم</string>
+</resources>

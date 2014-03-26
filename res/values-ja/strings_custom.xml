@@ -18,12 +18,17 @@
  */
 -->
 <resources>
+  <string name="mwi_notification_title">メッセージ待機インジケータ</string>
+  <string name="mwi_notification_summary">ボイスメール通知のメッセージ待機インジケータを表示する</string>
   <string name="preference_category_interface">インターフェース</string>
-  <string name="vibrate_outgoing">通話応答時のバイブレーション</string>
-  <string name="vibrate_call_waiting">呼び出し中にバイブレーション</string>
-  <string name="vibrate_hangup">終話時にバイブレーション</string>
-  <string name="vibrate_60_title">毎分バイブレーション</string>
-  <string name="vibrate_60_summary">発信した通話中に毎分（60秒毎）バイブレーションさせる</string>
-  <string name="battery_mode">バッテリーセーブモード</string>
-  <string name="battery_mode_label">デバイスがロックされているときはネットワークを2Gにする</string>
+  <string name="non_intrusive_incall_title">非侵入型のダイアログ</string>
+  <string name="non_intrusive_incall_summary">着信通知に非侵入型のダイアログを使用する</string>
+  <string name="incall_vibration">着信時に振動する</string>
+  <string name="vibrate_outgoing">着信応答時に振動する</string>
+  <string name="vibrate_call_waiting">キャッチホン時に振動する</string>
+  <string name="vibrate_hangup">終話時に振動する</string>
+  <string name="vibrate_60_title">1分ごとに振動する</string>
+  <string name="vibrate_60_summary">発信通話時に1分経過するごとに振動する</string>
+  <string name="battery_mode">バッテリー節約モード</string>
+  <string name="battery_mode_label">デバイスがロックされているときには2Gネットワークを設定する</string>
 </resources>

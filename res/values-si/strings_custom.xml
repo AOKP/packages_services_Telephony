@@ -30,5 +30,5 @@
   <string name="vibrate_60_title">සෑම මිනිත්තුවකටම වරක් කම්පනයවේ</string>
   <string name="vibrate_60_summary">ලබාගන්නා ඇමතුම් සඳහා සෑම මිනිත්තුවේම 60 වන තත්පරයේදී කම්පනයවේ</string>
   <string name="battery_mode">බැටරි සුරැකීමේ ප්‍රකාරය</string>
-  <string name="battery_mode_label">ආම්පන්නය අගුලු දැමූ විට 2G ජාල ප්‍රකාරය පිහිටුවන්න</string>
+  <string name="battery_mode_label">උපාංගය අගුළු දැමූ විට 2G ජාල ප්‍රකාරය පිහිටුවන්න</string>
 </resources>

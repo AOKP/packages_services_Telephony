@@ -17,4 +17,11 @@
  * limitations under the License.
  */
 -->
-<resources/>
+<resources>
+  <string name="incall_vibration">通話震動</string>
+  <string name="vibrate_hangup">掛斷時震動</string>
+  <string name="vibrate_60_title">每分鐘振動一次</string>
+  <string name="vibrate_60_summary">撥出電話時,每60秒震動一次</string>
+  <string name="battery_mode">省電模式</string>
+  <string name="battery_mode_label">當裝置鎖定時,將網路模式切換至2G</string>
+</resources>
