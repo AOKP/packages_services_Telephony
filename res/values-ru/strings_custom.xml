@@ -21,8 +21,8 @@
   <string name="mwi_notification_title">Индикатор ожидания</string>
   <string name="mwi_notification_summary">Показывать индикатор ожидания сообщения уведомлений голосовой почты</string>
   <string name="preference_category_interface">Интерфейс</string>
-  <string name="non_intrusive_incall_title">Ненавязчивый режим</string>
-  <string name="non_intrusive_incall_summary">Использовать ненавязчивое отображение входящих вызовов</string>
+  <string name="non_intrusive_incall_title">Деликатный режим</string>
+  <string name="non_intrusive_incall_summary">Использовать деликатный режим отображения входящих вызовов</string>
   <string name="incall_vibration">Вибрация во время звонка</string>
   <string name="vibrate_outgoing">Вибрация при ответе</string>
   <string name="vibrate_call_waiting">Вибрация при ожидании</string>

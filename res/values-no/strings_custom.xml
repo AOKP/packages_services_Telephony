@@ -17,4 +17,18 @@
  * limitations under the License.
  */
 -->
-<resources/>
+<resources>
+  <string name="mwi_notification_title">Indikator for ventende melding</string>
+  <string name="mwi_notification_summary">Vis indikator for ventende melding ved mobilsvarvarsler</string>
+  <string name="preference_category_interface">Grensesnitt</string>
+  <string name="non_intrusive_incall_title">Deaktiver varsling</string>
+  <string name="non_intrusive_incall_summary">Deaktiver varsling ved innkommende samtaler</string>
+  <string name="incall_vibration">Vibrasjon under samtale</string>
+  <string name="vibrate_outgoing">Vibrer ved svar</string>
+  <string name="vibrate_call_waiting">Vibrer ved samtale venter</string>
+  <string name="vibrate_hangup">Vibrer ved samtaleslutt</string>
+  <string name="vibrate_60_title">Vibrer hvert minutt</string>
+  <string name="vibrate_60_summary">Vibrer hvert minutt ved utgående samtaler</string>
+  <string name="battery_mode">Strømsparemodus</string>
+  <string name="battery_mode_label">Begrens nettverk til 2G når enheten er låst</string>
+</resources>
