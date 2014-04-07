@@ -21,7 +21,7 @@
   <string name="mwi_notification_title">Wskaźnik oczekiwania wiadomości</string>
   <string name="mwi_notification_summary">Pokaż powiadomienie oczekiwania na pocztę głosową</string>
   <string name="preference_category_interface">Interfejs</string>
-  <string name="non_intrusive_incall_title">Nie nachalne</string>
+  <string name="non_intrusive_incall_title">Nienachalne</string>
   <string name="non_intrusive_incall_summary">Nie używaj nachalnych okien dialogowych podczas połączeń przychodzących</string>
   <string name="incall_vibration">Wibracje w trakcie rozmowy</string>
   <string name="vibrate_outgoing">Wibracja przy odebraniu</string>
@@ -31,4 +31,12 @@
   <string name="vibrate_60_summary">Wibracja co 60 sekundę podczas połączeń wychodzących</string>
   <string name="battery_mode">Tryb oszczędzania baterii</string>
   <string name="battery_mode_label">Wybierz sieć 2G, gdy urządzenie jest zablokowane</string>
+  <string name="number_lookup">Wyszukiwanie numeru</string>
+  <string name="enable_forward_lookup_title">Wyszukiwanie w przód</string>
+  <string name="enable_forward_lookup_summary">Pokaż miejsca w pobliżu, gdy szuka</string>
+  <string name="enable_people_lookup_title">Znajdź osoby</string>
+  <string name="enable_people_lookup_summary">Pokaż wyniki online dla osób podczas wyszukiwania</string>
+  <string name="enable_reverse_lookup_title">Szukaj wstecz</string>
+  <string name="enable_reverse_lookup_summary">Wyszukaj informacje o osobie lub miejscu dla nieznanych numerów połączeń przychodzącyh</string>
+  <string name="choose_lookup_providers">Wybierz wyszukiwarkę</string>
 </resources>

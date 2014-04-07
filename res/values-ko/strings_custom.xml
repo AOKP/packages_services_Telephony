@@ -31,4 +31,15 @@
   <string name="vibrate_60_summary">발신 통화 중 매 60초마다 진동</string>
   <string name="battery_mode">배터리 절약 모드</string>
   <string name="battery_mode_label">장치가 잠겨 있을 때 네트워크를 2G로 설정</string>
+  <string name="number_lookup">전화 번호 조회</string>
+  <string name="enable_forward_lookup_title">정방향 조회</string>
+  <string name="enable_forward_lookup_summary">다이얼러에서 검색할 때 인근 지역 표시</string>
+  <string name="enable_people_lookup_title">사람 조회</string>
+  <string name="enable_people_lookup_summary">다이얼러에서 검색할 때 사람들을 위한 온라인 결과 보기</string>
+  <string name="enable_reverse_lookup_title">역방향 조회</string>
+  <string name="enable_reverse_lookup_summary">알 수없는 숫사람이나 장소에 대한 정보를 조회</string>
+  <string name="choose_lookup_providers">조회 공급자 선택</string>
+  <string name="choose_forward_lookup_provider_title">정방향 조회 공급자 선택</string>
+  <string name="choose_people_lookup_provider_title">사람들이 조회 공급자 선택</string>
+  <string name="choose_reverse_lookup_provider_title">역방향 조회 제공자를 선택하세요</string>
 </resources>

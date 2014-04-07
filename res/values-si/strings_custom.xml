@@ -31,4 +31,15 @@
   <string name="vibrate_60_summary">ලබාගන්නා ඇමතුම් සඳහා සෑම මිනිත්තුවේම 60 වන තත්පරයේදී කම්පනයවේ</string>
   <string name="battery_mode">බැටරි සුරැකීමේ ප්‍රකාරය</string>
   <string name="battery_mode_label">උපාංගය අගුළු දැමූ විට 2G ජාල ප්‍රකාරය පිහිටුවන්න</string>
+  <string name="number_lookup">ඇමතුම් අංක සෙවීම</string>
+  <string name="enable_forward_lookup_title">ඉදිරියට සෙවීම</string>
+  <string name="enable_forward_lookup_summary">අංකිත මුහුණේ සෙවීමේදී අවට ස්ථාන පෙන්වන්න</string>
+  <string name="enable_people_lookup_title">ප්‍රජාව සෙවීම</string>
+  <string name="enable_people_lookup_summary">අංකිත මුහුණේ සෙවීමේදී ප්‍රජාව සඳහා සබැඳි ප්‍රතිඵල පෙන්වන්න</string>
+  <string name="enable_reverse_lookup_title">පසුපසට සෙවීම</string>
+  <string name="enable_reverse_lookup_summary">පැමිණෙන ඇමතුම් වලදී නොදන්නා අංක සඳහා පුද්ගලයා හෝ ස්ථාන පිලිබඳ තොරතුරු සොයන්න</string>
+  <string name="choose_lookup_providers">සෙවීමේ ප්‍රතිපාදක තෝරන්න</string>
+  <string name="choose_forward_lookup_provider_title">ඉදිරියට සෙවීමේ ප්‍රතිපාදක තෝරන්න</string>
+  <string name="choose_people_lookup_provider_title">ප්‍රජාව සෙවීමේ ප්‍රතිපාදක තෝරන්න</string>
+  <string name="choose_reverse_lookup_provider_title">පසුපසට සෙවීමේ ප්‍රතිපාදක තෝරන්න</string>
 </resources>

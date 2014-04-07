@@ -31,4 +31,5 @@
   <string name="vibrate_60_summary">רטט כל 60 שניות במהלך שיחה יוצאת</string>
   <string name="battery_mode">מצב חסכון בסוללה</string>
   <string name="battery_mode_label">עבור לרשת דור שני כשהמכשיר נעול</string>
+  <string name="choose_lookup_providers">בחר ספקי חיפוש</string>
 </resources>

@@ -31,4 +31,15 @@
   <string name="vibrate_60_summary">Вибрация каждые 60 секунд во время исходящих звонков</string>
   <string name="battery_mode">Режим экономии батареи</string>
   <string name="battery_mode_label">Установить режим 2G, когда устройство заблокировано</string>
+  <string name="number_lookup">Поиск номеров телефона</string>
+  <string name="enable_forward_lookup_title">Прямой поиск</string>
+  <string name="enable_forward_lookup_summary">Показывать ближайшие места при поиске</string>
+  <string name="enable_people_lookup_title">Поиск контактов</string>
+  <string name="enable_people_lookup_summary">Показывать результаты из сети для контактов при поиске</string>
+  <string name="enable_reverse_lookup_title">Обратный поиск</string>
+  <string name="enable_reverse_lookup_summary">Поиск информации о человеке или месте для входящих с неизвестных номеров</string>
+  <string name="choose_lookup_providers">Выбор поставщиков поиска</string>
+  <string name="choose_forward_lookup_provider_title">Выбор поставщика прямого поиска</string>
+  <string name="choose_people_lookup_provider_title">Выбор поставщика поиска контактов</string>
+  <string name="choose_reverse_lookup_provider_title">Выбор поставщика обратного поиска</string>
 </resources>
