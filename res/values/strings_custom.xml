@@ -96,4 +96,15 @@
     <!-- Detailed InCall Info -->
     <string name="detailed_incall_info_title">Detailed incall information</string>
     <string name="detailed_incall_info_summary">Display additional information (organization, position, city and nickname) on full incall screen.</string>
+
+    <!-- TD-SCDMA uses a variation of the GSM combos -->
+    <string-array name="enabled_networks_tdscdma_values" translatable="false">
+        <item>"20"</item>
+        <item>"18"</item>
+        <item>"1"</item>
+    </string-array>
+    <string-array name="enabled_networks_tdscdma_except_lte_values" translatable="false">
+        <item>"18"</item>
+        <item>"1"</item>
+    </string-array>
 </resources>
