@@ -17,4 +17,8 @@
  * limitations under the License.
  */
 -->
-<resources/>
+<resources>
+  <string name="mwi_notification_title">Chỉ báo chờ tin nhắn</string>
+  <string name="mwi_notification_summary">Hiện chỉ báo chờ tin nhắn thông báo thư thoại</string>
+  <string name="preference_category_interface">Giao diện</string>
+</resources>

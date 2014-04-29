@@ -31,4 +31,15 @@
   <string name="vibrate_60_summary">発信通話時に1分経過するごとに振動する</string>
   <string name="battery_mode">バッテリー節約モード</string>
   <string name="battery_mode_label">デバイスがロックされているときには2Gネットワークを設定する</string>
+  <string name="number_lookup">電話番号検索</string>
+  <string name="enable_forward_lookup_title">正引き検索</string>
+  <string name="enable_forward_lookup_summary">ダイヤラーで検索した際に近くの場所を表示する</string>
+  <string name="enable_people_lookup_title">人物検索</string>
+  <string name="enable_people_lookup_summary">ダイヤラーで検索した際に人物についてのオンライン検索結果を表示する</string>
+  <string name="enable_reverse_lookup_title">逆引き検索</string>
+  <string name="enable_reverse_lookup_summary">着信した未登録番号から人物や場所に関する情報を検索する</string>
+  <string name="choose_lookup_providers">検索プロバイダの選択</string>
+  <string name="choose_forward_lookup_provider_title">正引き検索のプロバイダを選択</string>
+  <string name="choose_people_lookup_provider_title">人物検索のプロバイダを選択</string>
+  <string name="choose_reverse_lookup_provider_title">逆引き検索のプロバイダを選択</string>
 </resources>

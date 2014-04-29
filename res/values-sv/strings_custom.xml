@@ -31,4 +31,15 @@
   <string name="vibrate_60_summary">Vibrerar vid 60 sekunder för varje minut under utgående samtal</string>
   <string name="battery_mode">Batterisparläge</string>
   <string name="battery_mode_label">Ändra nätverket till 2G när enheten är låst</string>
+  <string name="number_lookup">Telefonnummer sökning</string>
+  <string name="enable_forward_lookup_title">Vanlig sökning</string>
+  <string name="enable_forward_lookup_summary">Visa närliggande platser när du söker i telefonen</string>
+  <string name="enable_people_lookup_title">Person sökning</string>
+  <string name="enable_people_lookup_summary">Visa online resultat för personer när du söker i telefonen</string>
+  <string name="enable_reverse_lookup_title">Omvänd sökning</string>
+  <string name="enable_reverse_lookup_summary">Leta upp information om den person eller plats för okända nummer på inkommande samtal</string>
+  <string name="choose_lookup_providers">Välj leverantörer för sökning</string>
+  <string name="choose_forward_lookup_provider_title">Välj leverantör för vidare sökning</string>
+  <string name="choose_people_lookup_provider_title">Välja personers leverantör för sökning</string>
+  <string name="choose_reverse_lookup_provider_title">Välj omvänd sökning av leverantör</string>
 </resources>

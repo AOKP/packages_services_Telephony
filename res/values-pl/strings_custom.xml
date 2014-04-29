@@ -39,4 +39,7 @@
   <string name="enable_reverse_lookup_title">Szukaj wstecz</string>
   <string name="enable_reverse_lookup_summary">Wyszukaj informacje o osobie lub miejscu dla nieznanych numerów połączeń przychodzącyh</string>
   <string name="choose_lookup_providers">Wybierz wyszukiwarkę</string>
+  <string name="choose_forward_lookup_provider_title">Dostawca wyszukiwania naprzód</string>
+  <string name="choose_people_lookup_provider_title">Dostawca wyszukiwania osób</string>
+  <string name="choose_reverse_lookup_provider_title">Dostawca wyszukiwania wstecz</string>
 </resources>

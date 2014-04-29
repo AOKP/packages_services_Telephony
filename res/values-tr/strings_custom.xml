@@ -21,8 +21,8 @@
   <string name="mwi_notification_title">Mesaj bekleme göstergesi</string>
   <string name="mwi_notification_summary">Mesaj bekleme göstergesinde sesli mesaj bildirimlerini gösterir</string>
   <string name="preference_category_interface">Arayüz</string>
-  <string name="non_intrusive_incall_title">Non intrusive</string>
-  <string name="non_intrusive_incall_summary">Gelen aramalar için non-intrusive diyalog kutusunu kullan</string>
+  <string name="non_intrusive_incall_title">İzin verilen</string>
+  <string name="non_intrusive_incall_summary">Gelen aramalar için izin verilen diyalog kutusunu kullan</string>
   <string name="incall_vibration">Aramada titreşim</string>
   <string name="vibrate_outgoing">Cevaplandığında titret</string>
   <string name="vibrate_call_waiting">Çağrı bekletildiğinde titret</string>

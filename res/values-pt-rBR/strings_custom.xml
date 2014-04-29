@@ -31,4 +31,15 @@
   <string name="vibrate_60_summary">Vibrar a cada minuto durante chamadas de saída</string>
   <string name="battery_mode">Modo de economia de bateria</string>
   <string name="battery_mode_label">Definir rede para 2G quando o dispositivo estiver bloqueado</string>
+  <string name="number_lookup">Pesquisa de número de telefone</string>
+  <string name="enable_forward_lookup_title">Pesquisa de encaminhamento</string>
+  <string name="enable_forward_lookup_summary">Mostrar lugares próximos ao pesquisar no discador</string>
+  <string name="enable_people_lookup_title">Pesquisar pessoas</string>
+  <string name="enable_people_lookup_summary">Mostrar resultados on-line para as pessoas, ao pesquisar no discador</string>
+  <string name="enable_reverse_lookup_title">Pesquisa inversa</string>
+  <string name="enable_reverse_lookup_summary">Procurar informações sobre a pessoa ou lugar para números desconhecidos em chamadas recebidas</string>
+  <string name="choose_lookup_providers">Escolha de provedores de pesquisa</string>
+  <string name="choose_forward_lookup_provider_title">Escolher o provedor de pesquisa de encaminhamento</string>
+  <string name="choose_people_lookup_provider_title">Escolher o provedor de pesquisa de pessoas</string>
+  <string name="choose_reverse_lookup_provider_title">Escolher o provedor de pesquisa inversa</string>
 </resources>

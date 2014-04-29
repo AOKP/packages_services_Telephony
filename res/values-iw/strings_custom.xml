@@ -31,5 +31,15 @@
   <string name="vibrate_60_summary">רטט כל 60 שניות במהלך שיחה יוצאת</string>
   <string name="battery_mode">מצב חסכון בסוללה</string>
   <string name="battery_mode_label">עבור לרשת דור שני כשהמכשיר נעול</string>
+  <string name="number_lookup">חיפוש מספר טלפון</string>
+  <string name="enable_forward_lookup_title">בדיקה קדימה</string>
+  <string name="enable_forward_lookup_summary">הצג מקומות סמוכים כשמחפש בחייגן</string>
+  <string name="enable_people_lookup_title">חיפוש אנשים</string>
+  <string name="enable_people_lookup_summary">התג תוצאות מהרשת עבור אנשים בעת חיפוש בחייגן</string>
+  <string name="enable_reverse_lookup_title">בדיקה הפוכה</string>
+  <string name="enable_reverse_lookup_summary">חפש מידע אודות האדם או המקום עבור מספרים לא ידועים בשיחות נכנסות</string>
   <string name="choose_lookup_providers">בחר ספקי חיפוש</string>
+  <string name="choose_forward_lookup_provider_title">בחר ספק לבדיקה קדימה</string>
+  <string name="choose_people_lookup_provider_title">בחר ספר לחיפוש אנשים</string>
+  <string name="choose_reverse_lookup_provider_title">בחר ספק לחיפוש הפוך</string>
 </resources>

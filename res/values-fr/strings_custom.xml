@@ -33,5 +33,13 @@
   <string name="battery_mode_label">Régler le réseau sur 2G quand l\'appareil est verouiller</string>
   <string name="number_lookup">Recherche de numéro de téléphone</string>
   <string name="enable_forward_lookup_title">Recherche directe</string>
+  <string name="enable_forward_lookup_summary">Afficher les adresses à proximité lors d\'une recherche avec le pavé de composition</string>
   <string name="enable_people_lookup_title">Recherche de personnes</string>
+  <string name="enable_people_lookup_summary">Afficher les résultats Internet sur les personnes lors d\'une recherche avec le pavé de composition</string>
+  <string name="enable_reverse_lookup_title">Recherche inversée</string>
+  <string name="enable_reverse_lookup_summary">Rechercher les informations sur une personne ou une adresse lorsqu\'un appel est reçu depuis un numéro inconnu</string>
+  <string name="choose_lookup_providers">Choisir le moteur de recherche</string>
+  <string name="choose_forward_lookup_provider_title">Choisir le moteur de recherche classique</string>
+  <string name="choose_people_lookup_provider_title">Choisir le moteur de recherche pour les personnes</string>
+  <string name="choose_reverse_lookup_provider_title">Choisir le moteur de recherche inversée</string>
 </resources>
