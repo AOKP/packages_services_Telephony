@@ -33,9 +33,9 @@
   <string name="battery_mode_label">Telefon kilitliyken ağı 2G moduna al</string>
   <string name="number_lookup">Telefon numarası arama</string>
   <string name="enable_forward_lookup_title">İleri arama</string>
-  <string name="enable_forward_lookup_summary">Dialer\'da arama yaparken yakın yerleri göster</string>
+  <string name="enable_forward_lookup_summary">Çeviricide arama yaparken yakın yerleri göster</string>
   <string name="enable_people_lookup_title">Kişi arama</string>
-  <string name="enable_people_lookup_summary">Arayıcıda arama yaparken kişiler için çevrimiçi sonuçları göster</string>
+  <string name="enable_people_lookup_summary">Çeviricide arama yaparken kişiler için çevrimiçi sonuçları göster</string>
   <string name="enable_reverse_lookup_title">Geri arama</string>
   <string name="enable_reverse_lookup_summary">Bilinmeyen numaralardan gelen çağrılarda kişiler veya yerler hakkında bilgileri araştır</string>
   <string name="choose_lookup_providers">Arama sağlayıcılarını seç</string>

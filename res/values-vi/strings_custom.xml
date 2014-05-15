@@ -21,4 +21,25 @@
   <string name="mwi_notification_title">Chỉ báo chờ tin nhắn</string>
   <string name="mwi_notification_summary">Hiện chỉ báo chờ tin nhắn thông báo thư thoại</string>
   <string name="preference_category_interface">Giao diện</string>
+  <string name="non_intrusive_incall_title">Chống xâm nhập</string>
+  <string name="non_intrusive_incall_summary">Dùng hộp thoại chống xâm nhập đối với cuộc gọi đến</string>
+  <string name="incall_vibration">Rung báo cuộc gọi đến</string>
+  <string name="vibrate_outgoing">Rung khi trả lời</string>
+  <string name="vibrate_call_waiting">Rung khi chờ cuộc gọi</string>
+  <string name="vibrate_hangup">Rung khi gác máy</string>
+  <string name="vibrate_60_title">Rung mỗi phút</string>
+  <string name="vibrate_60_summary">Rung mỗi 60 giây khi thực hiện cuộc gọi đi</string>
+  <string name="battery_mode">Chế độ tiết kiệm pin</string>
+  <string name="battery_mode_label">Đặt mạng 2G khi khoá thiết bị</string>
+  <string name="number_lookup">Tìm số điện thoại</string>
+  <string name="enable_forward_lookup_title">Tìm kiếm chuyển tiếp</string>
+  <string name="enable_forward_lookup_summary">Hiện các địa điểm gần đây khi tìm trong trình gọi điện</string>
+  <string name="enable_people_lookup_title">Tìm mọi người</string>
+  <string name="enable_people_lookup_summary">Hiện kết quả những người trực tuyến khi tìm trong trình gọi điện</string>
+  <string name="enable_reverse_lookup_title">Tìm kiếm ngược</string>
+  <string name="enable_reverse_lookup_summary">Tìm thông tin về người hoặc vị trí của số gọi đến chưa xác định</string>
+  <string name="choose_lookup_providers">Chọn nhà cung cấp tìm kiếm</string>
+  <string name="choose_forward_lookup_provider_title">Chọn nhà cung cấp tìm kiếm chuyển tiếp</string>
+  <string name="choose_people_lookup_provider_title">Chọn nhà cung cấp tìm kiếm mọi người</string>
+  <string name="choose_reverse_lookup_provider_title">Chọn nhà cung cấp tìm kiếm ngược</string>
 </resources>
