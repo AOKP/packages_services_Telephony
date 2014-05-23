@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mwi_notification_title">Mesaj bekleme göstergesi</string>
   <string name="mwi_notification_summary">Mesaj bekleme göstergesinde sesli mesaj bildirimlerini gösterir</string>
   <string name="preference_category_interface">Arayüz</string>

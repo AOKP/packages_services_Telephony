@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mwi_notification_title">Индикатор ожидания</string>
   <string name="mwi_notification_summary">Показывать индикатор ожидания сообщения уведомлений голосовой почты</string>
   <string name="preference_category_interface">Интерфейс</string>
@@ -42,4 +42,13 @@
   <string name="choose_forward_lookup_provider_title">Выбор поставщика прямого поиска</string>
   <string name="choose_people_lookup_provider_title">Выбор поставщика поиска контактов</string>
   <string name="choose_reverse_lookup_provider_title">Выбор поставщика обратного поиска</string>
+  <string name="flip_action_title">Переворот</string>
+  <string name="flip_action_dialog_title">При перевороте\u2026</string>
+  <string name="flip_action_summary">При перевороте телефона <xliff:g id="action">%s</xliff:g></string>
+  <string name="entry_do_nothing">Ничего не делать</string>
+  <string name="entry_mute_ringer">Отключить звонок</string>
+  <string name="entry_dismiss_call">Отклонить вызов</string>
+  <string name="summary_do_nothing">ничего не делать</string>
+  <string name="summary_mute_ringer">отключить звонок</string>
+  <string name="summary_dismiss_call">отклонить вызов</string>
 </resources>

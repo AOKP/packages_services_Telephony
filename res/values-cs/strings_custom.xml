@@ -17,8 +17,7 @@
  * limitations under the License.
  */
 -->
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mwi_notification_title">Indikátor čekající zprávy</string>
   <string name="mwi_notification_summary">Zobrazit indikátor čekající hlasové zprávy</string>
   <string name="preference_category_interface">Rozhraní</string>
@@ -44,7 +43,7 @@
   <string name="choose_people_lookup_provider_title">Zvolit poskytovatele hledání lidí</string>
   <string name="choose_reverse_lookup_provider_title">Zvolit poskytovatele zpětného hledání</string>
   <string name="flip_action_title">Akce otočení zařízení</string>
-  <string name="flip_action_dialog_title">Otočení zařízení \u2026</string>
+  <string name="flip_action_dialog_title">Otočení zařízení\u2026</string>
   <string name="flip_action_summary">Otočení zařízení displejem dolů <xliff:g id="action">%s</xliff:g></string>
   <string name="entry_do_nothing">Neudělá nic</string>
   <string name="entry_mute_ringer">Ztiší vyzvánění</string>

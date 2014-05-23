@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mwi_notification_title">Üzenet várakozás kijelzés</string>
   <string name="mwi_notification_summary">Üzenet megjelenítése várakozó hangpostánál</string>
   <string name="preference_category_interface">Felület</string>

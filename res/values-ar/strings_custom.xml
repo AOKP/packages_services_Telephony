@@ -17,6 +17,29 @@
  * limitations under the License.
  */
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="mwi_notification_title">مؤشر الانتظار رسالة</string>
+  <string name="mwi_notification_summary">يظهر رسالة البريد الصوتي مؤشر الإعلام</string>
   <string name="preference_category_interface">واجهة المستخدم</string>
+  <string name="non_intrusive_incall_title">عدم التدخل</string>
+  <string name="non_intrusive_incall_summary">استخدم مربع الحوار غير تدخلية للمكالمات الواردة</string>
+  <string name="incall_vibration">الاهتزاز في المكالمة</string>
+  <string name="vibrate_outgoing">يهتز في الإجابة</string>
+  <string name="vibrate_call_waiting">يهتز في انتظار المكالمة</string>
+  <string name="vibrate_hangup">يهتز في الرد</string>
+  <string name="vibrate_60_title">يهتز كل دقيقة</string>
+  <string name="vibrate_60_summary">يهتز عند 60 ثانية لكل دقيقة أثناء المكالمات الصادرة</string>
+  <string name="battery_mode">وضع توفير البطارية</string>
+  <string name="battery_mode_label">تعيين الشبكة إلى2G عندما يتم تأمين الجهاز</string>
+  <string name="number_lookup">البحث عن رقم الهاتف</string>
+  <string name="enable_forward_lookup_title">بحث إلى الأمام</string>
+  <string name="enable_forward_lookup_summary">إظهر الأماكن القريبة  عند البحث في الهاتف</string>
+  <string name="enable_people_lookup_title">بحث عن الناس</string>
+  <string name="enable_people_lookup_summary">إظهار نتائج عبر الإنترنت للناس عند البحث في الهاتف</string>
+  <string name="enable_reverse_lookup_title">بحث عكسي</string>
+  <string name="enable_reverse_lookup_summary">البحث عن معلومات حول شخص أو مكان اللأرقام غير معروفة في المكالمات الواردة</string>
+  <string name="choose_lookup_providers">اختر موفري بحث</string>
+  <string name="choose_forward_lookup_provider_title">اختير موفر بحث أمامي</string>
+  <string name="choose_people_lookup_provider_title">اختر موفر بحث عن الناس</string>
+  <string name="choose_reverse_lookup_provider_title">اختر موفر بحث عكسي</string>
 </resources>

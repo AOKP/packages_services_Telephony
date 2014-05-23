@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mwi_notification_title">Wskaźnik oczekiwania wiadomości</string>
   <string name="mwi_notification_summary">Pokaż powiadomienie oczekiwania na pocztę głosową</string>
   <string name="preference_category_interface">Interfejs</string>
@@ -31,15 +31,24 @@
   <string name="vibrate_60_summary">Wibracja co 60 sekundę podczas połączeń wychodzących</string>
   <string name="battery_mode">Tryb oszczędzania baterii</string>
   <string name="battery_mode_label">Wybierz sieć 2G, gdy urządzenie jest zablokowane</string>
-  <string name="number_lookup">Wyszukiwanie numeru</string>
+  <string name="number_lookup">Wyszukiwanie numeru telefonu</string>
   <string name="enable_forward_lookup_title">Wyszukiwanie w przód</string>
-  <string name="enable_forward_lookup_summary">Pokaż miejsca w pobliżu, gdy szuka</string>
-  <string name="enable_people_lookup_title">Znajdź osoby</string>
-  <string name="enable_people_lookup_summary">Pokaż wyniki online dla osób podczas wyszukiwania</string>
-  <string name="enable_reverse_lookup_title">Szukaj wstecz</string>
-  <string name="enable_reverse_lookup_summary">Wyszukaj informacje o osobie lub miejscu dla nieznanych numerów połączeń przychodzącyh</string>
-  <string name="choose_lookup_providers">Wybierz wyszukiwarkę</string>
+  <string name="enable_forward_lookup_summary">Pokaż miejsca w pobliżu podczas wyszukiwania w dialerze</string>
+  <string name="enable_people_lookup_title">Wyszukiwanie osób</string>
+  <string name="enable_people_lookup_summary">Pokaż wyniki online dla osób podczas wyszukiwania w dialerze</string>
+  <string name="enable_reverse_lookup_title">Wyszukiwanie wstecz</string>
+  <string name="enable_reverse_lookup_summary">Wyszukaj informacje o osobie lub miejscu dla nieznanych numerów połączeń przychodzących</string>
+  <string name="choose_lookup_providers">Wybierz dostawców wyszukiwania</string>
   <string name="choose_forward_lookup_provider_title">Dostawca wyszukiwania naprzód</string>
   <string name="choose_people_lookup_provider_title">Dostawca wyszukiwania osób</string>
   <string name="choose_reverse_lookup_provider_title">Dostawca wyszukiwania wstecz</string>
+  <string name="flip_action_title">Reakcja na odwrócenie</string>
+  <string name="flip_action_dialog_title">Obróć urządzenie do\u2026</string>
+  <string name="flip_action_summary">Odwrócenie urządzenia ekranem do dołu spowoduje <xliff:g id="action">%s</xliff:g></string>
+  <string name="entry_do_nothing">Nic nie rób</string>
+  <string name="entry_mute_ringer">Wyciszenie dzwonka</string>
+  <string name="entry_dismiss_call">Odrzucenie połączenia</string>
+  <string name="summary_do_nothing">nic nie rób</string>
+  <string name="summary_mute_ringer">Wycisz dzwonek</string>
+  <string name="summary_dismiss_call">odrzuć połączenie</string>
 </resources>

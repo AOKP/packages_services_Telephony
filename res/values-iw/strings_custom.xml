@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mwi_notification_title">מחוון הודעה ממתינה</string>
   <string name="mwi_notification_summary">הצג מחוון עבור הודעה קולית ממתינה</string>
   <string name="preference_category_interface">ממשק</string>

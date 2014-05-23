@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mwi_notification_title">Indikator for ventende melding</string>
   <string name="mwi_notification_summary">Vis indikator for ventende melding ved mobilsvarvarsler</string>
   <string name="preference_category_interface">Grensesnitt</string>

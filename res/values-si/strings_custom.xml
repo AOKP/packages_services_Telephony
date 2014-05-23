@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mwi_notification_title">පණිවිඩ පොරොත්තුවේ දර්ශකය</string>
   <string name="mwi_notification_summary">පණිවිඩ පොරොත්තු දර්ශකයේ, හඬ තැපෑලේ දැනුම්දීම් පෙන්වන්න</string>
   <string name="preference_category_interface">අතුරුමුහුණත</string>
@@ -42,4 +42,13 @@
   <string name="choose_forward_lookup_provider_title">ඉදිරියට සෙවීමේ ප්‍රතිපාදක තෝරන්න</string>
   <string name="choose_people_lookup_provider_title">ප්‍රජාව සෙවීමේ ප්‍රතිපාදක තෝරන්න</string>
   <string name="choose_reverse_lookup_provider_title">පසුපසට සෙවීමේ ප්‍රතිපාදක තෝරන්න</string>
+  <string name="flip_action_title">පෙරළීමේ ක්‍රියාව</string>
+  <string name="flip_action_dialog_title">උපාංගය පෙරලූවිට\u2026</string>
+  <string name="flip_action_summary">උපාංගය පහළට පෙරළීමේදී <xliff:g id="action">%s</xliff:g></string>
+  <string name="entry_do_nothing">කිසිත් නොකරන්න</string>
+  <string name="entry_mute_ringer">නාදවීම නවත්වන්න</string>
+  <string name="entry_dismiss_call">ඇමතුම ඉවතලන්න</string>
+  <string name="summary_do_nothing">කිසිත් නොකරන්න</string>
+  <string name="summary_mute_ringer">නාදවීම නිශ්ශබ්ද කරන්න</string>
+  <string name="summary_dismiss_call">ඇමතුම ඉවතලන්න</string>
 </resources>

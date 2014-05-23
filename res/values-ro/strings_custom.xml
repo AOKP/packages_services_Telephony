@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="preference_category_interface">Interfata</string>
   <string name="non_intrusive_incall_title">Non intruziv</string>
 </resources>

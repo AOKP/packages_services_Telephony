@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mwi_notification_title">Bericht wacht indicatie</string>
   <string name="mwi_notification_summary">Laat bericht wacht indicatie voicemail meldingen zien</string>
   <string name="preference_category_interface">Interface</string>

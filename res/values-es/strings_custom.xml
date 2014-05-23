@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mwi_notification_title">Indicador de mensaje de espera</string>
   <string name="mwi_notification_summary">Mostrar una notificación para los mensajes en espera del buzón de voz</string>
   <string name="preference_category_interface">Interfaz</string>

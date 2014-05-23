@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mwi_notification_title">訊息等候指示</string>
   <string name="mwi_notification_summary">顯示信息等待指示器語音信箱提醒</string>
   <string name="preference_category_interface">介面</string>
@@ -42,4 +42,13 @@
   <string name="choose_forward_lookup_provider_title">選擇轉駁查詢提供商</string>
   <string name="choose_people_lookup_provider_title">選擇人名查詢供應商</string>
   <string name="choose_reverse_lookup_provider_title">選擇反向查詢提供商</string>
+  <string name="flip_action_title">翻轉操作</string>
+  <string name="flip_action_dialog_title">翻轉設備\u2026</string>
+  <string name="flip_action_summary">翻轉電話向下來<xliff:g id="action">%s</xliff:g></string>
+  <string name="entry_do_nothing">什麼都不做</string>
+  <string name="entry_mute_ringer">來電靜音</string>
+  <string name="entry_dismiss_call">通話駁回</string>
+  <string name="summary_do_nothing">什麼都不做</string>
+  <string name="summary_mute_ringer">靜音鈴聲</string>
+  <string name="summary_dismiss_call">駁回通話</string>
 </resources>

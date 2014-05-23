@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mwi_notification_title">Indicateur de message d\'attente</string>
   <string name="mwi_notification_summary">Afficher l\'indicateur des notifications de message en attente</string>
   <string name="preference_category_interface">Interface</string>
@@ -42,4 +42,13 @@
   <string name="choose_forward_lookup_provider_title">Choisir le moteur de recherche classique</string>
   <string name="choose_people_lookup_provider_title">Choisir le moteur de recherche pour les personnes</string>
   <string name="choose_reverse_lookup_provider_title">Choisir le moteur de recherche inversée</string>
+  <string name="flip_action_title">Action de rotation</string>
+  <string name="flip_action_dialog_title">Retourner l\'appareil pour\u2026</string>
+  <string name="flip_action_summary">Retourner le téléphone va <xliff:g id="action">%s</xliff:g></string>
+  <string name="entry_do_nothing">Ne rien faire</string>
+  <string name="entry_mute_ringer">Sonnerie muette</string>
+  <string name="entry_dismiss_call">Rejeter l\'appel</string>
+  <string name="summary_do_nothing">ne rien faire</string>
+  <string name="summary_mute_ringer">couper la sonnerie</string>
+  <string name="summary_dismiss_call">rejeter l\'appel</string>
 </resources>
