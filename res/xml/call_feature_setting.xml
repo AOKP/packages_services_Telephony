@@ -277,6 +277,13 @@
         android:persistent="false">
 
         <CheckBoxPreference
+            android:key="button_detailed_incall_info"
+            android:title="@string/detailed_incall_info_title"
+            android:summary="@string/detailed_incall_info_summary"
+            android:persistent="false"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
             android:key="button_smart_phone_call"
             android:title="@string/smart_phone_call_title"
             android:summary="@string/smart_phone_call_summary"

@@ -87,5 +87,8 @@
     <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> messages were blocked</string>
     <string name="blacklist_notification_list_private">Private</string>
     <string name="unblock_number">Unblock</string>	
-</resources>
 
+    <!-- Detailed InCall Info -->
+    <string name="detailed_incall_info_title">Detailed incall information</string>
+    <string name="detailed_incall_info_summary">Display additional information (organization, position, city and nickname) on full incall screen.</string>
+</resources>
