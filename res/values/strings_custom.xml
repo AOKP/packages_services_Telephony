@@ -93,5 +93,7 @@
     <string name="perm_change_mobile_network">change network mode (2G/3G/4G)</string>
     <string name="perm_change_mobile_network_desc">Allows the app to change between 2G, 3G and 4G data at any time. 3G and 4G is faster, but consumes more battery and may cause additional cost.</string>
 
+    <!-- Detailed InCall Info -->
+    <string name="detailed_incall_info_title">Detailed incall information</string>
+    <string name="detailed_incall_info_summary">Display additional information (organization, position, city and nickname) on full incall screen.</string>
 </resources>
-
