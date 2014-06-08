@@ -211,6 +211,7 @@ public class CallFeaturesSetting extends PreferenceActivity
     private static final String BUTTON_CHOOSE_REVERSE_LOOKUP_PROVIDER =
             "button_choose_reverse_lookup_provider";
     private static final String BUTTON_SMART_PHONE_CALL_KEY = "button_smart_phone_call";
+    private static final String BUTTON_DETAILED_INCALL_INFO_KEY = "button_detailed_incall_info";
 
     private static final String FLIP_ACTION_KEY = "flip_action";
 
@@ -309,6 +310,7 @@ public class CallFeaturesSetting extends PreferenceActivity
     private ListPreference mFlipAction;
 
     private CheckBoxPreference mSmartCall;
+    private CheckBoxPreference mDetailedIncallInfo;
 
     private class VoiceMailProvider {
         public VoiceMailProvider(String name, Intent intent) {
@@ -571,6 +573,10 @@ public class CallFeaturesSetting extends PreferenceActivity
         } else if (preference == mSmartCall){
             Settings.AOKP.putInt(getContentResolver(), Settings.AOKP.SMART_PHONE_CALLER,
                     mSmartCall.isChecked() ? 1 : 0);
+            return true;
+        } else if (preference == mDetailedIncallInfo){
+            Settings.AOKP.putInt(getContentResolver(), Settings.AOKP.DETAILED_INCALL_INFO,
+                    mDetailedIncallInfo.isChecked() ? 1 : 0);
             return true;
         }
         return false;
@@ -1727,6 +1733,10 @@ public class CallFeaturesSetting extends PreferenceActivity
         mSmartCall = (CheckBoxPreference) findPreference(BUTTON_SMART_PHONE_CALL_KEY);
         mSmartCall.setChecked(Settings.AOKP.getInt(getContentResolver(),
                 Settings.AOKP.SMART_PHONE_CALLER, 0) != 0 ? true : false);
+
+        mDetailedIncallInfo = (CheckBoxPreference) findPreference(BUTTON_DETAILED_INCALL_INFO_KEY);
+        mDetailedIncallInfo.setChecked(Settings.AOKP.getInt(getContentResolver(),
+                Settings.AOKP.DETAILED_INCALL_INFO, 0) != 0 ? true : false);
 
         // create intent to bring up contact list
         mContactListIntent = new Intent(Intent.ACTION_GET_CONTENT);
