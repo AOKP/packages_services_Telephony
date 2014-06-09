@@ -20,4 +20,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="preference_category_interface">Interfata</string>
   <string name="non_intrusive_incall_title">Non intruziv</string>
+  <string name="incall_vibration">Vibrare în apel</string>
+  <string name="vibrate_outgoing">Vibrare la răspuns</string>
+  <string name="vibrate_call_waiting">Vibrare pentru apel în așteptare</string>
+  <string name="vibrate_hangup">Vibrare la terminare apel</string>
+  <string name="vibrate_60_title">Vibrare la fiecare minut</string>
+  <string name="battery_mode">Modul de economisire baterie</string>
+  <string name="number_lookup">Căutare număr de telefon</string>
+  <string name="enable_people_lookup_title">Căutare persoane</string>
+  <string name="entry_dismiss_call">Respingere apel</string>
+  <string name="summary_dismiss_call">respinge apelul</string>
 </resources>

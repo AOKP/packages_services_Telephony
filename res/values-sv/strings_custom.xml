@@ -42,4 +42,15 @@
   <string name="choose_forward_lookup_provider_title">Välj leverantör för vidare sökning</string>
   <string name="choose_people_lookup_provider_title">Välja personers leverantör för sökning</string>
   <string name="choose_reverse_lookup_provider_title">Välj omvänd sökning av leverantör</string>
+  <string name="flip_action_title">Vänd åtgärder</string>
+  <string name="flip_action_dialog_title">Vänd enheten till\u2026</string>
+  <string name="flip_action_summary">Vända telefonen ner kommer <xliff:g id="action">%s</xliff:g></string>
+  <string name="entry_do_nothing">Gör ingenting</string>
+  <string name="entry_mute_ringer">Stänga av ringsignalen</string>
+  <string name="entry_dismiss_call">Avvisa samtalet</string>
+  <string name="summary_do_nothing">gör ingenting</string>
+  <string name="summary_mute_ringer">stänga av ringsignalen</string>
+  <string name="summary_dismiss_call">avvisa samtalet</string>
+  <string name="smart_phone_call_title">Smart telefon samtal</string>
+  <string name="smart_phone_call_summary">Sätt på örat, och det kommer automatiskt att ringa aktuellt nummer i meddelande eller telefonen</string>
 </resources>

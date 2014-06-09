@@ -17,4 +17,32 @@
  * limitations under the License.
  */
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"/>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="preference_category_interface">Käyttöliittymä</string>
+  <string name="non_intrusive_incall_title">Pieni ilmoitusruutu</string>
+  <string name="non_intrusive_incall_summary">Käytä pientä ilmoitusruutua saapuville puheluille</string>
+  <string name="incall_vibration">Värinä puhelun aikana</string>
+  <string name="vibrate_outgoing">Värinä vastatessa</string>
+  <string name="vibrate_call_waiting">Värinä puhelun odottaessa</string>
+  <string name="vibrate_hangup">Värinä puhelun loputtua</string>
+  <string name="vibrate_60_title">Värinä minuutin välein</string>
+  <string name="vibrate_60_summary">Värinä minuutin välein soitetun puhelun aikana</string>
+  <string name="battery_mode">Virransäästötila</string>
+  <string name="battery_mode_label">Aseta puhelin 2G tilaan, kun puhelin on lukittu</string>
+  <string name="number_lookup">Puhelinnumeroiden haku</string>
+  <string name="enable_forward_lookup_summary">Näytä lähistöllä olevia paikkoja, kun etsit numeronvalitsimella</string>
+  <string name="enable_people_lookup_title">Henkilöhaku</string>
+  <string name="enable_people_lookup_summary">Näytä online tuloksia ihmisistä, kun etsit numeronvalitsimella</string>
+  <string name="enable_reverse_lookup_summary">Etsi tuntemattomasta numerosta soittavan henkilön tietoja tulevissa puheluissa</string>
+  <string name="choose_lookup_providers">Valitse haun tarjoajat</string>
+  <string name="choose_people_lookup_provider_title">Valitse henkilöhaun tarjoaja</string>
+  <string name="flip_action_title">Laitteen kääntö</string>
+  <string name="flip_action_dialog_title">Laitteen kääntäminen\u2026</string>
+  <string name="flip_action_summary">Puhelimen kääntö <xliff:g id="action">%s</xliff:g></string>
+  <string name="entry_do_nothing">Älä tee mitään</string>
+  <string name="entry_mute_ringer">Mykistä soittoääni</string>
+  <string name="entry_dismiss_call">Hylkää puhelu</string>
+  <string name="summary_do_nothing">ei tee mitään</string>
+  <string name="summary_mute_ringer">mykistää soittoäänen</string>
+  <string name="summary_dismiss_call">hylkää puhelun</string>
+</resources>

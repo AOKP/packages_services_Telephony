@@ -30,7 +30,7 @@
   <string name="vibrate_60_title">Vibrer toutes les minutes</string>
   <string name="vibrate_60_summary">Vibrer toutes les 60 secondes pour marquer chaque minutes durant un appel sortant</string>
   <string name="battery_mode">Mode d\'économie de batterie</string>
-  <string name="battery_mode_label">Régler le réseau sur 2G quand l\'appareil est verouiller</string>
+  <string name="battery_mode_label">Régler le réseau sur 2G quand l\'appareil est verrouiller</string>
   <string name="number_lookup">Recherche de numéro de téléphone</string>
   <string name="enable_forward_lookup_title">Recherche directe</string>
   <string name="enable_forward_lookup_summary">Afficher les adresses à proximité lors d\'une recherche avec le pavé de composition</string>

@@ -42,4 +42,15 @@
   <string name="choose_forward_lookup_provider_title">İleri arama sağlayıcısını seçin</string>
   <string name="choose_people_lookup_provider_title">Kişi arama sağlayıcısı seç</string>
   <string name="choose_reverse_lookup_provider_title">Geri arama sağlayıcısı seçin</string>
+  <string name="flip_action_title">Çevirme İşlevi</string>
+  <string name="flip_action_dialog_title">Cihazı to\u2026 çevir</string>
+  <string name="flip_action_summary">Telefonu ters çevirmek <xliff:g id="action">%s</xliff:g></string>
+  <string name="entry_do_nothing">Hiçbir şey yapma</string>
+  <string name="entry_mute_ringer">Zil sesini kapat</string>
+  <string name="entry_dismiss_call">Aramayı reddet</string>
+  <string name="summary_do_nothing">bir şey yapma</string>
+  <string name="summary_mute_ringer">zil sesini kapat</string>
+  <string name="summary_dismiss_call">aramayı reddet</string>
+  <string name="smart_phone_call_title">Akıllı telefon araması</string>
+  <string name="smart_phone_call_summary">Kulağınıza dayayın, bu şekilde mesajdaki veya çeviricideki numara kendiliğinden aranacaktır</string>
 </resources>

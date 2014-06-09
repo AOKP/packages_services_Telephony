@@ -51,4 +51,6 @@
   <string name="summary_do_nothing">non fare nulla</string>
   <string name="summary_mute_ringer">disattivare la suoneria</string>
   <string name="summary_dismiss_call">respingi la chiamata</string>
+  <string name="smart_phone_call_title">Chiamata smartphone</string>
+  <string name="smart_phone_call_summary">Appoggia al tuo orecchio e questo automaticamente chiamerà il numero nel messaggio o nel tastierino numerico</string>
 </resources>
