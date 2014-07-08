@@ -18,7 +18,7 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="mwi_notification_title">Indicador de mensaje de espera</string>
+  <string name="mwi_notification_title">Indicador de mensaje en espera</string>
   <string name="mwi_notification_summary">Mostrar una notificación para los mensajes en espera del buzón de voz</string>
   <string name="preference_category_interface">Interfaz</string>
   <string name="non_intrusive_incall_title">No intrusivo</string>
@@ -35,7 +35,7 @@
   <string name="enable_forward_lookup_title">Búsqueda de lugares</string>
   <string name="enable_forward_lookup_summary">Mostrar resultados de lugares cercanos al buscar en el marcador</string>
   <string name="enable_people_lookup_title">Búsqueda de personas</string>
-  <string name="enable_people_lookup_summary">Mostrar resultados en línea para las personas al buscar en el dialer</string>
+  <string name="enable_people_lookup_summary">Mostrar resultados en línea para las personas al buscar en el marcador</string>
   <string name="enable_reverse_lookup_title">Búsqueda inversa</string>
   <string name="enable_reverse_lookup_summary">Buscar información sobre la persona o lugar para números desconocidos en las llamadas entrantes</string>
   <string name="choose_lookup_providers">Elegir proveedores de búsqueda</string>
@@ -44,7 +44,7 @@
   <string name="choose_reverse_lookup_provider_title">Elegir proveedor para búsqueda inversa</string>
   <string name="flip_action_title">Acción al voltear</string>
   <string name="flip_action_dialog_title">Voltear dispositivo a\u2026</string>
-  <string name="flip_action_summary">Voltear el teléfono a voluntad de <xliff:g id="action">%s</xliff:g></string>
+  <string name="flip_action_summary">Al voltear el telefono <xliff:g id="action">%s</xliff:g></string>
   <string name="entry_do_nothing">No hacer nada</string>
   <string name="entry_mute_ringer">Timbre mudo</string>
   <string name="entry_dismiss_call">Rechazar llamada</string>
