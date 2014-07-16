@@ -53,4 +53,18 @@
   <string name="summary_dismiss_call">respingi la chiamata</string>
   <string name="smart_phone_call_title">Chiamata smartphone</string>
   <string name="smart_phone_call_summary">Appoggia al tuo orecchio e questo automaticamente chiamerà il numero nel messaggio o nel tastierino numerico</string>
+  <string name="advanced_setting">Avanzate</string>
+  <string name="blacklist_title">Blacklist</string>
+  <string name="blacklist_summary_disabled">Disabilitata</string>
+  <string name="blacklist_summary">Le chiamate in entrata provenienti da numeri di telefono presenti nella blacklist verranno bloccate</string>
+  <string name="blacklist_call_notification">Bloccata una chiamata dal %s</string>
+  <string name="blacklist_call_notification_private_number">Bloccata una chiamata da un numero privato</string>
+  <string name="blacklist_call_notification_unknown_number">Numero sconosciuto: %s</string>
+  <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g> chiamate sono state bloccate</string>
+  <string name="blacklist_message_notification">Bloccato un messaggio da %s</string>
+  <string name="blacklist_message_notification_private_number">Bloccato un messaggio da un numero privato</string>
+  <string name="blacklist_message_notification_unknown_number">Bloccato un messaggio da un numero sconosciuto: %s</string>
+  <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> messaggi sono stati bloccati</string>
+  <string name="blacklist_notification_list_private">Privato</string>
+  <string name="unblock_number">Sblocca</string>
 </resources>

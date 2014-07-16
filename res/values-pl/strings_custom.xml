@@ -52,5 +52,19 @@
   <string name="summary_mute_ringer">Wycisz dzwonek</string>
   <string name="summary_dismiss_call">odrzuć połączenie</string>
   <string name="smart_phone_call_title">Inteligentny telefon</string>
-  <string name="smart_phone_call_summary">Przyłóż telefon do ucha, a następnie zostanie automatycznie wybrany numer zapisany we wiadomości lub dialerze</string>
+  <string name="smart_phone_call_summary">Przyłóż telefon do ucha, a następnie zostanie automatycznie wybrany numer zapisany w wiadomości lub dialerze</string>
+  <string name="advanced_setting">Zaawansowane</string>
+  <string name="blacklist_title">Czarna lista</string>
+  <string name="blacklist_summary_disabled">Wyłączono</string>
+  <string name="blacklist_summary">Połączenia przychodzące z numerów na czarnej liście będą zablokowane</string>
+  <string name="blacklist_call_notification">Zablokowano połączenie z %s</string>
+  <string name="blacklist_call_notification_private_number">Zablokowano połączenie z prywatnego numeru</string>
+  <string name="blacklist_call_notification_unknown_number">Zablokowano połączenie z nieznanego numeru %s</string>
+  <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g> połączeń zostało zablokowanych</string>
+  <string name="blacklist_message_notification">Zablokowano wiadomość od %s</string>
+  <string name="blacklist_message_notification_private_number">Zablokowano wiadomość od numeru prywatnego</string>
+  <string name="blacklist_message_notification_unknown_number">Zablokowano wiadomość od nieznanego numeru %s</string>
+  <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> wiadomości zablokowano</string>
+  <string name="blacklist_notification_list_private">Prywatne</string>
+  <string name="unblock_number">Odblokuj</string>
 </resources>

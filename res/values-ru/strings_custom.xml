@@ -53,4 +53,18 @@
   <string name="summary_dismiss_call">отклонить вызов</string>
   <string name="smart_phone_call_title">Умный вызов</string>
   <string name="smart_phone_call_summary">Поднесите телефон к уху, вызов текущего номера в сообщении или наборнике будет выполнен автоматически</string>
+  <string name="advanced_setting">Дополнительно</string>
+  <string name="blacklist_title">Чёрный список</string>
+  <string name="blacklist_summary_disabled">Отключен</string>
+  <string name="blacklist_summary">Входящие сообщения от абонентов из чёрного списка будут блокироваться</string>
+  <string name="blacklist_call_notification">Блокирован вызов от %s</string>
+  <string name="blacklist_call_notification_private_number">Блокирован вызов от скрытого номера</string>
+  <string name="blacklist_call_notification_unknown_number">Вызов с неизвестного номера %s блокирован</string>
+  <string name="blacklist_call_notification_multiple">Блокировано вызовов: <xliff:g id="count">%d</xliff:g></string>
+  <string name="blacklist_message_notification">Сообщение от %s заблокировано</string>
+  <string name="blacklist_message_notification_private_number">Сообщение со скрытого номера заблокировано</string>
+  <string name="blacklist_message_notification_unknown_number">Сообщение от неизвестного номера %s заблокировано</string>
+  <string name="blacklist_message_notification_multiple">Заблокировано сообщений: <xliff:g id="count">%d</xliff:g></string>
+  <string name="blacklist_notification_list_private">Скрытый</string>
+  <string name="unblock_number">Разблокировать</string>
 </resources>

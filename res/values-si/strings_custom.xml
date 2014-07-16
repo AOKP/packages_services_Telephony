@@ -53,4 +53,18 @@
   <string name="summary_dismiss_call">ඇමතුම ඉවතලන්න</string>
   <string name="smart_phone_call_title">කඩිසර දුරකථන ඇමතුම</string>
   <string name="smart_phone_call_summary">කනේ තබාගත් විට, පනිවිඩ යවන්නේ හෝ අංකිත මුහුණේ පවත්නා අංකයට ස්වයංක්‍රීයව අමතනු ඇත</string>
+  <string name="advanced_setting">උසස්</string>
+  <string name="blacklist_title">අපලේඛණය</string>
+  <string name="blacklist_summary_disabled">අක්‍රීයයි</string>
+  <string name="blacklist_summary">අපලේඛණයේ ඇති දුරකථන අංක මගින් පැමිණෙන ඇමතුම් අවහිර කෙරේ</string>
+  <string name="blacklist_call_notification">%sන් ඇමතුමක් අවහිර කෙරුණි</string>
+  <string name="blacklist_call_notification_private_number">පුද්ගලික අංකයකින් ඇමතුමක් අවහිර කෙරුණි</string>
+  <string name="blacklist_call_notification_unknown_number">නාඳුනන %s අංකයකයෙන් ඇමතුමක් අවහිර කෙරුණි</string>
+  <string name="blacklist_call_notification_multiple">ඇමතුම් <xliff:g id="count">%d</xliff:g>ක් අවහිර කෙරුණි</string>
+  <string name="blacklist_message_notification">%sන් පණිවිඩයක් අවහිර කෙරුණි</string>
+  <string name="blacklist_message_notification_private_number">පුද්ගලික අංකයකින් පණිවිඩයක් අවහිර කෙරුණි</string>
+  <string name="blacklist_message_notification_unknown_number">නාඳුනන %s අංකයකයෙන් පණිවිඩයක් අවහිර කෙරුණි</string>
+  <string name="blacklist_message_notification_multiple">පණිවිඩ <xliff:g id="count">%d</xliff:g>ක් අවහිර කෙරුණි</string>
+  <string name="blacklist_notification_list_private">පුද්ගලික</string>
+  <string name="unblock_number">ඉඩ දෙන්න</string>
 </resources>

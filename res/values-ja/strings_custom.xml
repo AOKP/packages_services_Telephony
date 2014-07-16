@@ -53,4 +53,18 @@
   <string name="summary_dismiss_call">着信を却下</string>
   <string name="smart_phone_call_title">スマート発信</string>
   <string name="smart_phone_call_summary">携帯電話を耳に当てるとメッセージまたはダイヤラーに表示されている番号に自動的に発信する</string>
+  <string name="advanced_setting">高度な設定</string>
+  <string name="blacklist_title">ブラックリスト</string>
+  <string name="blacklist_summary_disabled">無効</string>
+  <string name="blacklist_summary">ブラックリストに登録した電話番号からの着信をブロックする</string>
+  <string name="blacklist_call_notification">%sからの着信をブロックしました</string>
+  <string name="blacklist_call_notification_private_number">非通知番号からの着信をブロックしました</string>
+  <string name="blacklist_call_notification_unknown_number">未登録番号%sからの着信をブロックしました</string>
+  <string name="blacklist_call_notification_multiple">%d件の着信がブロックされました</string>
+  <string name="blacklist_message_notification">%sからのメッセージをブロックしました</string>
+  <string name="blacklist_message_notification_private_number">非通知番号からのメッセージをブロックしました</string>
+  <string name="blacklist_message_notification_unknown_number">未登録番号%sからのメッセージをブロックしました</string>
+  <string name="blacklist_message_notification_multiple">%d通のメッセージがブロックされました</string>
+  <string name="blacklist_notification_list_private">非通知</string>
+  <string name="unblock_number">ブロック解除</string>
 </resources>

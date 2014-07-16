@@ -53,4 +53,18 @@
   <string name="summary_dismiss_call">aramayı reddet</string>
   <string name="smart_phone_call_title">Akıllı telefon araması</string>
   <string name="smart_phone_call_summary">Kulağınıza dayayın, bu şekilde mesajdaki veya çeviricideki numara kendiliğinden aranacaktır</string>
+  <string name="advanced_setting">Gelişmiş</string>
+  <string name="blacklist_title">Kara liste</string>
+  <string name="blacklist_summary_disabled">Devre dışı</string>
+  <string name="blacklist_summary">Kara listedeki telefon numaralarından gelen aramalar engellenecektir</string>
+  <string name="blacklist_call_notification">%s kişisinden gelen bir arama engellendi</string>
+  <string name="blacklist_call_notification_private_number">Özel numaradan gelen bir arama engellendi</string>
+  <string name="blacklist_call_notification_unknown_number">Bilinmeyen numaradan %s gelen bir arama engellendi</string>
+  <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g> arama engellendi</string>
+  <string name="blacklist_message_notification">%s kişisinden gelen bir mesaj engellendi</string>
+  <string name="blacklist_message_notification_private_number">Özel numaradan gelen bir mesaj engellendi</string>
+  <string name="blacklist_message_notification_unknown_number">Bilinmeyen numaradan %s gelen bir mesaj engellendi</string>
+  <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> mesaj engellendi</string>
+  <string name="blacklist_notification_list_private">Özel</string>
+  <string name="unblock_number">Engeli kaldır</string>
 </resources>

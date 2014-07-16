@@ -53,4 +53,18 @@
   <string name="summary_dismiss_call">hủy cuộc gọi</string>
   <string name="smart_phone_call_title">Gọi thông minh</string>
   <string name="smart_phone_call_summary">Đưa thiết bị lên tai và nó sẽ tự động thực hiện gọi số hiện tại trong tin nhắn hoặc trình quay số</string>
+  <string name="advanced_setting">Nâng cao</string>
+  <string name="blacklist_title">Danh sách đen</string>
+  <string name="blacklist_summary_disabled">Đã vô hiệu</string>
+  <string name="blacklist_summary">Các cuộc gọi đến từ số trong danh sách đen sẽ bị chặn</string>
+  <string name="blacklist_call_notification">Chặn cuộc gọi từ %s</string>
+  <string name="blacklist_call_notification_private_number">Chặn cuộc gọi từ một số riêng</string>
+  <string name="blacklist_call_notification_unknown_number">Đã chặn cuộc gọi từ số chưa xác định %s</string>
+  <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g> cuộc gọi đã bị chặn</string>
+  <string name="blacklist_message_notification">Đã chặn tin nhắn từ %s</string>
+  <string name="blacklist_message_notification_private_number">Đã chặn tin nhắn từ số riêng</string>
+  <string name="blacklist_message_notification_unknown_number">Đã chặn tin nhắn từ số chưa xác định %s</string>
+  <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> tin nhắn đã bị chặn</string>
+  <string name="blacklist_notification_list_private">Riêng tư</string>
+  <string name="unblock_number">Bỏ chặn</string>
 </resources>
