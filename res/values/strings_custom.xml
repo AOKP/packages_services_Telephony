@@ -86,6 +86,12 @@
     <string name="blacklist_message_notification_unknown_number">Blocked a message from unknown number %s</string>
     <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> messages were blocked</string>
     <string name="blacklist_notification_list_private">Private</string>
-    <string name="unblock_number">Unblock</string>	
+    <string name="unblock_number">Unblock</string>
+
+    <!-- Incoming call style -->
+    <string name="incoming_call_style_title">Incoming call screen style</string>
+    <string name="incoming_call_style_classic">Classic</string>
+    <string name="incoming_call_style_fullscreen_photo">Fullscreen caller photo</string>
+
 </resources>
 
