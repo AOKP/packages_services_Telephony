@@ -53,4 +53,18 @@
   <string name="summary_dismiss_call">odmítne hovor</string>
   <string name="smart_phone_call_title">Chytré telefonní hovory</string>
   <string name="smart_phone_call_summary">Přiložením telefonu k uchu dojde k vytočení aktuálně zobrazeného čísla ve zprávě nebo vytáčeči</string>
+  <string name="advanced_setting">Pokročilé</string>
+  <string name="blacklist_title">Černá listina</string>
+  <string name="blacklist_summary_disabled">Vypnuta</string>
+  <string name="blacklist_summary">Příchozí hovory z čísel, která jsou na černé listině, jsou automaticky blokovány</string>
+  <string name="blacklist_call_notification">Blokovaný hovor od %s</string>
+  <string name="blacklist_call_notification_private_number">Blokovaný hovor ze skrytého čísla</string>
+  <string name="blacklist_call_notification_unknown_number">Blokovaný hovor z neznámého čísla %s</string>
+  <string name="blacklist_call_notification_multiple">Blokovaných hovorů: <xliff:g id="count">%d</xliff:g></string>
+  <string name="blacklist_message_notification">Blokovaná zpráva z čísla %s</string>
+  <string name="blacklist_message_notification_private_number">Blokovaná zpráva ze skrytého čísla</string>
+  <string name="blacklist_message_notification_unknown_number">Blokovaná zpráva z neznámého čísla %s</string>
+  <string name="blacklist_message_notification_multiple">Blokovaných zpráv: <xliff:g id="count">%d</xliff:g></string>
+  <string name="blacklist_notification_list_private">Skryté</string>
+  <string name="unblock_number">Neblokovat</string>
 </resources>

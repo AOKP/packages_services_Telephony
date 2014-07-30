@@ -31,4 +31,33 @@
   <string name="vibrate_60_summary">Δόνηση σε κάθε λεπτό κατά τη διάρκεια εξερχόμενων κλήσεων</string>
   <string name="battery_mode">Λειτουργία εξοικονόμησης μπαταρίας</string>
   <string name="battery_mode_label">Ορισμός δικτύου σε 2G, όταν η συσκευή είναι κλειδωμένη</string>
+  <string name="number_lookup">Αναζήτηση τηλεφωνικού αριθμού</string>
+  <string name="enable_forward_lookup_title">Κανονική αναζήτηση</string>
+  <string name="enable_forward_lookup_summary">Εμφάνιση κοντινών τοποθεσιών κατά την αναζήτηση στην εφαρμογή τηλεφώνου</string>
+  <string name="enable_people_lookup_title">Αναζήτηση ατόμων</string>
+  <string name="enable_people_lookup_summary">Εμφάνιση online αποτελεσμάτων για τα άτομα κατά την αναζήτηση στην εφαρμογή τηλεφώνου</string>
+  <string name="enable_reverse_lookup_title">Αντίστροφη αναζήτηση</string>
+  <string name="enable_reverse_lookup_summary">Αναζήτηση πληροφοριών σχετικά με το άτομο ή την τοποθεσία για άγνωστους αριθμούς στις εισερχόμενες κλήσεις</string>
+  <string name="choose_lookup_providers">Επιλογή παρόχων αναζήτησης</string>
+  <string name="choose_forward_lookup_provider_title">Πάροχος κανονικής αναζήτησης</string>
+  <string name="choose_people_lookup_provider_title">Πάροχος αναζήτησης ατόμων</string>
+  <string name="choose_reverse_lookup_provider_title">Πάροχος αντίστροφης αναζήτησης</string>
+  <string name="flip_action_title">Ενέργεια αναποδογυρίσματος</string>
+  <string name="flip_action_summary">Το αναποδογύρισμα του τηλεφώνου θα <xliff:g id="action">%s</xliff:g></string>
+  <string name="entry_do_nothing">Να μη γίνει καμία ενέργεια</string>
+  <string name="smart_phone_call_title">Έξυπνη τηλεφωνική κλήση</string>
+  <string name="advanced_setting">Σύνθετες επιλογές</string>
+  <string name="blacklist_title">Μαύρη Λίστα</string>
+  <string name="blacklist_summary_disabled">Απενεργοποίηση</string>
+  <string name="blacklist_summary">Εισερχόμενες κλήσεις από αριθμούς που είναι στη μαύρη λίστα θα απορρίπτονται</string>
+  <string name="blacklist_call_notification">Απορρίφθηκε κλήση από %s</string>
+  <string name="blacklist_call_notification_private_number">Απορρίφθηκε κλήση από απόρρητο αριθμό</string>
+  <string name="blacklist_call_notification_unknown_number">Απορρίφθηκε άγνωστος αριθμός %s</string>
+  <string name="blacklist_call_notification_multiple">Απορρίφθηκαν <xliff:g id="count">%d</xliff:g> κλήσεις</string>
+  <string name="blacklist_message_notification">Απορρίφθηκε μήνυμα από %s</string>
+  <string name="blacklist_message_notification_private_number">Απορρίφθηκε μήνυμα από απόρρητο αριθμό</string>
+  <string name="blacklist_message_notification_unknown_number">Απορρίφθηκε μήνυμα από άγνωστο αριθμό %s</string>
+  <string name="blacklist_message_notification_multiple">Απορρίφθηκαν <xliff:g id="count">%d</xliff:g> μηνύματα</string>
+  <string name="blacklist_notification_list_private">Ιδιωτικό</string>
+  <string name="unblock_number">Ακύρωση φραγής</string>
 </resources>

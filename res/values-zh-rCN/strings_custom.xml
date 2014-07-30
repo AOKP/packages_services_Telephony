@@ -53,4 +53,18 @@
   <string name="summary_dismiss_call">挂断电话</string>
   <string name="smart_phone_call_title">智能拨出</string>
   <string name="smart_phone_call_summary">当放在耳边时，将自动拨打信息或拨号盘当前显示的号码。</string>
+  <string name="advanced_setting">高级</string>
+  <string name="blacklist_title">黑名单</string>
+  <string name="blacklist_summary_disabled">已禁用</string>
+  <string name="blacklist_summary">黑名单中号码的来电将被阻止。</string>
+  <string name="blacklist_call_notification">阻止了 %s 的来电</string>
+  <string name="blacklist_call_notification_private_number">阻止了一个私有号码的来电</string>
+  <string name="blacklist_call_notification_unknown_number">阻止了未知号码 %s 的来电</string>
+  <string name="blacklist_call_notification_multiple">已阻止 <xliff:g id="count">%d</xliff:g> 次来电</string>
+  <string name="blacklist_message_notification">阻止来自 %s 的信息</string>
+  <string name="blacklist_message_notification_private_number">阻止来自于私有号码的信息</string>
+  <string name="blacklist_message_notification_unknown_number">阻止来自未知号码 %s 的信息</string>
+  <string name="blacklist_message_notification_multiple">已阻止<xliff:g id="count">%d</xliff:g> 条信息</string>
+  <string name="blacklist_notification_list_private">私有</string>
+  <string name="unblock_number">不阻止</string>
 </resources>

@@ -53,4 +53,18 @@
   <string name="summary_dismiss_call">Rechazar la llamada</string>
   <string name="smart_phone_call_title">Llamada teléfonica inteligente</string>
   <string name="smart_phone_call_summary">Pongaselo en el oído, y así se llamará automáticamente al número del mensaje o del marcador</string>
+  <string name="advanced_setting">Avanzado</string>
+  <string name="blacklist_title">Lista negra</string>
+  <string name="blacklist_summary_disabled">Desactivado</string>
+  <string name="blacklist_summary">Las llamadas entrantes de los números en la lista negra serán bloqueadas</string>
+  <string name="blacklist_call_notification">Llamada de %s, bloqueada</string>
+  <string name="blacklist_call_notification_private_number">Llamada de número oculto bloqueada</string>
+  <string name="blacklist_call_notification_unknown_number">Llamada del número desconocido %s bloqueada</string>
+  <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g> llamadas fueron bloqueadas</string>
+  <string name="blacklist_message_notification">Mensaje de %s, bloqueado</string>
+  <string name="blacklist_message_notification_private_number">Mensaje de número oculto, bloqueado</string>
+  <string name="blacklist_message_notification_unknown_number">Mensaje de número desconocido %s, bloqueado</string>
+  <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> mensajes fueron bloqueados</string>
+  <string name="blacklist_notification_list_private">Privado</string>
+  <string name="unblock_number">Desbloquear</string>
 </resources>

@@ -53,4 +53,18 @@
   <string name="summary_dismiss_call">dismiss the call</string>
   <string name="smart_phone_call_title">스마트 전화</string>
   <string name="smart_phone_call_summary">귀에 착용,하고 자동으로 메시지 또는 전화에 현재 번호를 호출합니다</string>
+  <string name="advanced_setting">고급</string>
+  <string name="blacklist_title">블랙리스트</string>
+  <string name="blacklist_summary_disabled">사용 안함</string>
+  <string name="blacklist_summary">블랙리스트에 등록된 번호에서 오는 전화는 차단됩니다</string>
+  <string name="blacklist_call_notification">Blocked a call from %s</string>
+  <string name="blacklist_call_notification_private_number">발신번호 표시가 제한된 전화 차단됨</string>
+  <string name="blacklist_call_notification_unknown_number">Blocked a call from unknown number %s</string>
+  <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g> calls were blocked</string>
+  <string name="blacklist_message_notification">Blocked a message from %s</string>
+  <string name="blacklist_message_notification_private_number">발신번호 표시가 제한된 메시지 차단됨</string>
+  <string name="blacklist_message_notification_unknown_number">Blocked a message from unknown number %s</string>
+  <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> messages were blocked</string>
+  <string name="blacklist_notification_list_private">개인</string>
+  <string name="unblock_number">차단 해제</string>
 </resources>
