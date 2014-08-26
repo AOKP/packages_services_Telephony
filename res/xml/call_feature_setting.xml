@@ -284,6 +284,13 @@
             android:defaultValue="false" />
 
         <CheckBoxPreference
+            android:key="button_auto_call_record"
+            android:title="@string/auto_call_record_title"
+            android:summary="@string/auto_call_record_summary"
+            android:persistent="false"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
             android:key="button_smart_phone_call"
             android:title="@string/smart_phone_call_title"
             android:summary="@string/smart_phone_call_summary"

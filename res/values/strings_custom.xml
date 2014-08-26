@@ -96,4 +96,8 @@
     <!-- Detailed InCall Info -->
     <string name="detailed_incall_info_title">Detailed incall information</string>
     <string name="detailed_incall_info_summary">Display additional information (organization, position, city and nickname) on full incall screen.</string>
+
+    <!-- Auto call record -->
+    <string name="auto_call_record_title">Auto calls record</string>
+    <string name="auto_call_record_summary">Automaticaly starts recording when call is connected.</string>
 </resources>

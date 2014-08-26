@@ -213,6 +213,7 @@ public class CallFeaturesSetting extends PreferenceActivity
             "button_choose_reverse_lookup_provider";
     private static final String BUTTON_SMART_PHONE_CALL_KEY = "button_smart_phone_call";
     private static final String BUTTON_DETAILED_INCALL_INFO_KEY = "button_detailed_incall_info";
+    private static final String BUTTON_AUTO_CALL_RECORD_KEY = "button_auto_call_record";
 
     private static final String FLIP_ACTION_KEY = "flip_action";
 
@@ -316,6 +317,7 @@ public class CallFeaturesSetting extends PreferenceActivity
     private CheckBoxPreference mSmartCall;
     private PreferenceScreen mButtonBlacklist;
     private CheckBoxPreference mDetailedIncallInfo;
+    private CheckBoxPreference mAutoCallRecord;
 
     private class VoiceMailProvider {
         public VoiceMailProvider(String name, Intent intent) {
@@ -582,6 +584,10 @@ public class CallFeaturesSetting extends PreferenceActivity
         } else if (preference == mDetailedIncallInfo){
             Settings.AOKP.putInt(getContentResolver(), Settings.AOKP.DETAILED_INCALL_INFO,
                     mDetailedIncallInfo.isChecked() ? 1 : 0);
+            return true;
+        } else if (preference == mAutoCallRecord){
+            Settings.AOKP.putInt(getContentResolver(), Settings.AOKP.AUTO_CALL_RECORD,
+                    mAutoCallRecord.isChecked() ? 1 : 0);
             return true;
         }
         return false;
@@ -1742,6 +1748,10 @@ public class CallFeaturesSetting extends PreferenceActivity
         mDetailedIncallInfo = (CheckBoxPreference) findPreference(BUTTON_DETAILED_INCALL_INFO_KEY);
         mDetailedIncallInfo.setChecked(Settings.AOKP.getInt(getContentResolver(),
                 Settings.AOKP.DETAILED_INCALL_INFO, 0) != 0 ? true : false);
+
+        mAutoCallRecord = (CheckBoxPreference) findPreference(BUTTON_AUTO_CALL_RECORD_KEY);
+        mAutoCallRecord.setChecked(Settings.AOKP.getInt(getContentResolver(),
+                Settings.AOKP.AUTO_CALL_RECORD, 0) != 0 ? true : false);
 
         // create intent to bring up contact list
         mContactListIntent = new Intent(Intent.ACTION_GET_CONTENT);
