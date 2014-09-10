@@ -69,4 +69,6 @@
   <string name="unblock_number">Sblocca</string>
   <string name="perm_change_mobile_network">Cambia modalità di rete (2G/3G/4G)</string>
   <string name="perm_change_mobile_network_desc">Permetti alle app di scegliere tra 2G, 3G e 4G in qualsiasi momento. 3G e 4G sono più veloci, ma consumano molta più batteria e possono causare costi aggiuntivi.</string>
+  <string name="detailed_incall_info_title">Informazioni dettagliate delle chiamate ricevute</string>
+  <string name="detailed_incall_info_summary">Visualizzare informazioni aggiuntive (organizzazione, posizione, città e soprannome) nelle chiamate in entrata a pieno schermo.</string>
 </resources>

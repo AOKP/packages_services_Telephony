@@ -69,4 +69,6 @@
   <string name="unblock_number">Odblokuj</string>
   <string name="perm_change_mobile_network">zmiana trybu sieci (2G/3G/4G)</string>
   <string name="perm_change_mobile_network_desc">Pozwala aplikacji na zmianę pomiędzy transmisji danych pomiędzy 2G, 3G i 4G. 3G i 4G jest szybsze, ale zużywa więcej baterii i może powodować dodatkowe koszty.</string>
+  <string name="detailed_incall_info_title">Szczegółowe informacje połączeń przychodzących</string>
+  <string name="detailed_incall_info_summary">Wyświetla dodatkowe informacje (organizacja, stanowisko, miasto, nick) na ekranie połączenia przychodzącego.</string>
 </resources>
