@@ -69,4 +69,6 @@
   <string name="unblock_number">Feloldás</string>
   <string name="perm_change_mobile_network">Hálózat módosítása (2G/3G/4G)</string>
   <string name="perm_change_mobile_network_desc">Az ilyen engedéllyel rendelkező alkalmazás, bármikor válthat 2G, 3G és 4G közt. A 3G és 4G gyorsabb, de jobban meríti az akkumulátort, és több pénzbe is kerülhet.</string>
+  <string name="detailed_incall_info_title">Részletes bejövő hívás információk</string>
+  <string name="detailed_incall_info_summary">További információk (szervezet, pozíció, város és becenév) megjelenítése teljes képernyős bejövő hívásnál.</string>
 </resources>

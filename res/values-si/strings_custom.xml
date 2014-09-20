@@ -69,4 +69,6 @@
   <string name="unblock_number">ඉඩ දෙන්න</string>
   <string name="perm_change_mobile_network">ජාල ප්‍රකාරය වෙනස් කරන්න (2G/3G/4G)</string>
   <string name="perm_change_mobile_network_desc">ඕනෑම වෙලාවක 2G, 3G හා 4G දත්ත අතර හුවමාරුවීම සඳහා යෙදුමට අවසර දෙන්න. 3G හා 4G වේගවත් වේ, නමුත් වැඩි බැටරි ප්‍රමාණයක් පරිභෝජනය කරන අතර අමතර වියදමක්ද ඇති කිරීමට ඉඩ ඇත.</string>
+  <string name="detailed_incall_info_title">පැමිණෙන ඇමතුමේ සවිස්තර තොරතුරු</string>
+  <string name="detailed_incall_info_summary">පැමිණෙන ඇමතුම් පුන් තිරය මත අමතර තොරතුරු (සංවිධානය, තනතුර, නගරය සහ අපනාමය) පෙන්වන්න.</string>
 </resources>

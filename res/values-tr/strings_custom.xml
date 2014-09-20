@@ -54,7 +54,7 @@
   <string name="smart_phone_call_title">Akıllı telefon araması</string>
   <string name="smart_phone_call_summary">Kulağınıza dayayın, bu şekilde mesajdaki veya çeviricideki numara kendiliğinden aranacaktır</string>
   <string name="advanced_setting">Gelişmiş</string>
-  <string name="blacklist_title">Kara liste</string>
+  <string name="blacklist_title">Karaliste</string>
   <string name="blacklist_summary_disabled">Devre dışı</string>
   <string name="blacklist_summary">Kara listedeki telefon numaralarından gelen aramalar engellenecektir</string>
   <string name="blacklist_call_notification">%s kişisinden gelen bir arama engellendi</string>
@@ -69,4 +69,6 @@
   <string name="unblock_number">Engeli kaldır</string>
   <string name="perm_change_mobile_network">Ağ modunu (2G/3G/4G) değiştir</string>
   <string name="perm_change_mobile_network_desc">Uygulamanın 2G, 3G ve 4G verisi arasında değişiklik yapmasına izin verir. 3G ve 4G daha hızlıdır fakat daha fazla pil tüketir ve ek ücretlere neden olabilir.</string>
+  <string name="detailed_incall_info_title">Detaylı arama bilgisi</string>
+  <string name="detailed_incall_info_summary">Tam arama ekranında ek bilgileri (kuruluş, konum, şehir ve takma ad) göster.</string>
 </resources>

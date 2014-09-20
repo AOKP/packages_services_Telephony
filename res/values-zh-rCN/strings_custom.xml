@@ -69,4 +69,6 @@
   <string name="unblock_number">不阻止</string>
   <string name="perm_change_mobile_network">更改网络模式 (2G/3G/4G)</string>
   <string name="perm_change_mobile_network_desc">允许应用任何时候都可在2G 、3G和4G数据之间切换。3G和4G更快，但消耗更多电量以及可能引起额外的花费。</string>
+  <string name="detailed_incall_info_title">详细的来电信息</string>
+  <string name="detailed_incall_info_summary"> 显示附加信息（组织机构，位置，城市，昵称）在全屏来电界面。</string>
 </resources>

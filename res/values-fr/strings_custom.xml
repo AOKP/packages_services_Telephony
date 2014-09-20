@@ -21,8 +21,8 @@
   <string name="mwi_notification_title">Indicateur de message d\'attente</string>
   <string name="mwi_notification_summary">Afficher l\'indicateur des notifications de message en attente</string>
   <string name="preference_category_interface">Interface</string>
-  <string name="non_intrusive_incall_title">Non intrusive</string>
-  <string name="non_intrusive_incall_summary">Utilisez le dialogue non intrusif pour les appels entrants</string>
+  <string name="non_intrusive_incall_title">Non intrusif</string>
+  <string name="non_intrusive_incall_summary">Utilisez la boîte de dialogue non intrusive pour les appels entrants</string>
   <string name="incall_vibration">Vibrations en cours d\'appel</string>
   <string name="vibrate_outgoing">Vibrer à la réponse</string>
   <string name="vibrate_call_waiting">Vibrer sur un appel en attente</string>
@@ -53,4 +53,22 @@
   <string name="summary_dismiss_call">rejeter l\'appel</string>
   <string name="smart_phone_call_title">Appel intelligent</string>
   <string name="smart_phone_call_summary">Mettez l\'appareil sur votre oreille et cela appellera automatiquement le numéro présent dans le message ou le dialer</string>
+  <string name="advanced_setting">Avancés</string>
+  <string name="blacklist_title">Liste noire</string>
+  <string name="blacklist_summary_disabled">Désactivé</string>
+  <string name="blacklist_summary">Les appels entrants des numéros de téléphone présent dans la liste noire seront bloqués</string>
+  <string name="blacklist_call_notification">Appel de %s bloqué</string>
+  <string name="blacklist_call_notification_private_number">Appel d\'un numéro privé bloqué</string>
+  <string name="blacklist_call_notification_unknown_number">Appel d\'un numéro inconnu %s bloqué</string>
+  <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g> appels ont été bloqués</string>
+  <string name="blacklist_message_notification">Message de %s bloqué</string>
+  <string name="blacklist_message_notification_private_number">Message d\'un numéro privé bloqué</string>
+  <string name="blacklist_message_notification_unknown_number">Message d\'un numéro inconnu %s bloqué</string>
+  <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> messages ont été bloqués</string>
+  <string name="blacklist_notification_list_private">Privé</string>
+  <string name="unblock_number">Débloquer</string>
+  <string name="perm_change_mobile_network">changer le mode de réseau (2G/3G/4G)</string>
+  <string name="perm_change_mobile_network_desc">Permettre à l\'appli de basculer entre les données 2G, 3G et 4G à tout moment. La 3G et la 4G sont plus rapides, mais consomment plus de batterie et peuvent entraîner des frais supplémentaires.</string>
+  <string name="detailed_incall_info_title">Informations détaillées en appel</string>
+  <string name="detailed_incall_info_summary">Afficher des informations supplémentaires (organisation, position, ville et pseudo) en appel en plein écran.</string>
 </resources>
