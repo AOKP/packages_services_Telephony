@@ -562,15 +562,7 @@
     <string name="multi_category_disable">Multi-category disabled</string>
 
     <string name="network_lte">2G/3G/LTE Preferred (recommended)</string>
-    <string name="network_lte_3G">3G/LTE Preferred</string>
-    <string name="network_lte_only">LTE Only</string>
     <string name="network_4G">2G/3G/4G Preferred (recommended)</string>
-    <string name="network_4G_3G">3G/4G Preferred</string>
-    <string name="network_4G_only">4G Only</string>
-    <string name="network_3G_only">3G Only</string>
-    <string name="network_3G_auto">2G/3G Auto</string>
-    <string name="network_3G">2G/3G Preferred</string>
-    <string name="network_2G">2G Only</string>
     <string name="network_1x" translatable="false">1x</string>
     <string name="network_global">Global</string>
 
