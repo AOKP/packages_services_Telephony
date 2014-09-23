@@ -97,6 +97,15 @@
     <string name="detailed_incall_info_title">Detailed incall information</string>
     <string name="detailed_incall_info_summary">Display additional information (organization, position, city and nickname) on full incall screen.</string>
 
+    <string name="network_lte_3G">3G/LTE Preferred</string>
+    <string name="network_lte_only">LTE Only</string>
+    <string name="network_4G_3G">3G/4G Preferred</string>
+    <string name="network_4G_only">4G Only</string>
+    <string name="network_3G_only">3G Only</string>
+    <string name="network_3G_auto">2G/3G Auto</string>
+    <string name="network_3G">2G/3G Preferred</string>
+    <string name="network_2G">2G Only</string>
+
     <!-- TD-SCDMA uses a variation of the GSM combos -->
     <string-array name="enabled_networks_tdscdma_values" translatable="false">
         <item>"20"</item>
