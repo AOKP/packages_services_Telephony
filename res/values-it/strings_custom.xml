@@ -71,4 +71,12 @@
   <string name="perm_change_mobile_network_desc">Permetti alle app di scegliere tra 2G, 3G e 4G in qualsiasi momento. 3G e 4G sono più veloci, ma consumano molta più batteria e possono causare costi aggiuntivi.</string>
   <string name="detailed_incall_info_title">Informazioni dettagliate delle chiamate ricevute</string>
   <string name="detailed_incall_info_summary">Visualizzare informazioni aggiuntive (organizzazione, posizione, città e soprannome) nelle chiamate in entrata a pieno schermo.</string>
+  <string name="network_lte_3G">3G/LTE preferito</string>
+  <string name="network_lte_only">Solo LTE</string>
+  <string name="network_4G_3G">3G/4G Preferito</string>
+  <string name="network_4G_only">Solo 4G</string>
+  <string name="network_3G_only">Solo 3G</string>
+  <string name="network_3G_auto">Auto 2G/3G</string>
+  <string name="network_3G">2G/3G Preferito</string>
+  <string name="network_2G">Solo 2G</string>
 </resources>

@@ -71,4 +71,12 @@
   <string name="perm_change_mobile_network_desc">Позволяет приложению в любое время изменять режим сети между 2G, 3G и 4G. Режимы 3G и 4G быстрее, но потребляют больше заряда аккумулятора и могут повлечь дополнительные расходы.</string>
   <string name="detailed_incall_info_title">Детали при входящих</string>
   <string name="detailed_incall_info_summary">Отображение дополнительной информации (организация, должность, город и псевдоним) на экране входящего вызова.</string>
+  <string name="network_lte_3G">3G/LTE предпочтительно</string>
+  <string name="network_lte_only">Только LTE</string>
+  <string name="network_4G_3G">3G/4G предпочтительно</string>
+  <string name="network_4G_only">Только 4G</string>
+  <string name="network_3G_only">Только 3G</string>
+  <string name="network_3G_auto">2G/3G авто</string>
+  <string name="network_3G">2G/3G предпочтительно</string>
+  <string name="network_2G">Только 2G</string>
 </resources>

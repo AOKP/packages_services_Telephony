@@ -51,6 +51,9 @@
   <string name="summary_do_nothing">什麼都不做</string>
   <string name="summary_mute_ringer">靜音鈴聲</string>
   <string name="summary_dismiss_call">駁回通話</string>
+  <string name="smart_phone_call_title">智能通話</string>
+  <string name="smart_phone_call_summary">置於耳邊時，自動撥打當前訊息或撥號器中的號碼</string>
+  <string name="advanced_setting">進階</string>
   <string name="blacklist_title">黑名單</string>
   <string name="blacklist_summary_disabled">已停用</string>
 </resources>

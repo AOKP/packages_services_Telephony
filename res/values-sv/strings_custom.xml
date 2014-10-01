@@ -53,4 +53,22 @@
   <string name="summary_dismiss_call">avvisa samtalet</string>
   <string name="smart_phone_call_title">Smart telefon samtal</string>
   <string name="smart_phone_call_summary">Sätt på örat, och det kommer automatiskt att ringa aktuellt nummer i meddelande eller telefonen</string>
+  <string name="advanced_setting">Avancerat</string>
+  <string name="blacklist_title">Svartlist</string>
+  <string name="blacklist_summary_disabled">Inaktiverad(e)</string>
+  <string name="blacklist_summary">Inkommande samtal från telefonnummer i svartlistan kommer att blockeras</string>
+  <string name="blacklist_call_notification">Blockerade samtal från %s</string>
+  <string name="blacklist_call_notification_private_number">Blockerade ett samtal från ett privat nummer</string>
+  <string name="blacklist_call_notification_unknown_number">Blockerade ett samtal från okänt nummer %s</string>
+  <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g> samtal blockerades</string>
+  <string name="blacklist_message_notification">Blockerade ett meddelande från %s</string>
+  <string name="blacklist_message_notification_private_number">Blockerade ett meddelande från ett privat nummer</string>
+  <string name="blacklist_message_notification_unknown_number">Blockerade ett meddelande från okänt nummer %s</string>
+  <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> meddelanden blockerades</string>
+  <string name="blacklist_notification_list_private">Privat</string>
+  <string name="unblock_number">Häv blockering</string>
+  <string name="perm_change_mobile_network">ändra nätverksläge (2G / 3G / 4G)</string>
+  <string name="perm_change_mobile_network_desc">Tillåter appen att ändra mellan 2G och 3G-data när som helst. 3G är snabbare, men förbrukar mer batteri och kan resultera i extra kostnad.</string>
+  <string name="detailed_incall_info_title">Detaljerad in-call information</string>
+  <string name="detailed_incall_info_summary">Visa ytterligare information (organisation, position, stad och alias) på full in-call screen.</string>
 </resources>

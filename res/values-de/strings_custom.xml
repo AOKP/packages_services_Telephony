@@ -69,4 +69,6 @@
   <string name="unblock_number">Sperre aufheben</string>
   <string name="perm_change_mobile_network">Netzmodus wechseln (2G/3G/4G)</string>
   <string name="perm_change_mobile_network_desc">Ermöglicht der App, jederzeit zwischen 2G- und 3G- bzw. 4G-Netz zu wechseln. 3G/4G ist schneller, doch dies verbraucht mehr Akkuleistung und könnte zusätzliche Kosten verursachen.</string>
+  <string name="detailed_incall_info_title">Detaillierte Incall-Informationen</string>
+  <string name="detailed_incall_info_summary">Zusatzinformationen (Organisation, Position, Stadt und Kosename) auf vollem Incall-Bildschirm anzeigen.</string>
 </resources>

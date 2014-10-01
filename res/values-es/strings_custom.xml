@@ -69,4 +69,6 @@
   <string name="unblock_number">Desbloquear</string>
   <string name="perm_change_mobile_network">Cambiar red (2G/3G/4G)</string>
   <string name="perm_change_mobile_network_desc">Las aplicaciones con este permiso pueden, en cualquier momento, cambiar entre datos 2G, 3G y 4G. Son más rápidos 3G y 4G, pero consumen más batería y pueden costar más dinero.</string>
+  <string name="detailed_incall_info_title">Información detallada en llamada</string>
+  <string name="detailed_incall_info_summary">Mostrar información adicional (organización, posición, ciudad y apodo) en pantalla completa mi lugar.</string>
 </resources>

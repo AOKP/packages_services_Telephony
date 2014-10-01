@@ -71,4 +71,12 @@
   <string name="perm_change_mobile_network_desc">Permettre à l\'appli de basculer entre les données 2G, 3G et 4G à tout moment. La 3G et la 4G sont plus rapides, mais consomment plus de batterie et peuvent entraîner des frais supplémentaires.</string>
   <string name="detailed_incall_info_title">Informations détaillées en appel</string>
   <string name="detailed_incall_info_summary">Afficher des informations supplémentaires (organisation, position, ville et pseudo) en appel en plein écran.</string>
+  <string name="network_lte_3G">3G/LTE préféré</string>
+  <string name="network_lte_only">LTE uniquement</string>
+  <string name="network_4G_3G">3G/4G préféré</string>
+  <string name="network_4G_only">4G uniquement</string>
+  <string name="network_3G_only">3G uniquement</string>
+  <string name="network_3G_auto">2G/3G auto</string>
+  <string name="network_3G">2G/3G préféré</string>
+  <string name="network_2G">2G uniquement</string>
 </resources>
