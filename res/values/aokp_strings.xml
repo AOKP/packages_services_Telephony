@@ -32,4 +32,11 @@
     <string name="summary_mute_ringer">mute the ringer</string>
     <string name="summary_dismiss_call">dismiss the call</string>
 
+    <!-- Mobile network settings screen, setting check box name -->
+    <string name="national_roaming">National data roaming</string>
+    <!-- Mobile network settings screen, setting summary text when check box is selected -->
+    <string name="national_roaming_enable">Connect to data services when nationally roaming</string>
+    <!-- Mobile network settings screen, setting summary text when check box is clear -->
+    <string name="national_roaming_disable">Do not connect to data services when nationally roaming</string>
+
 </resources>
