@@ -204,4 +204,12 @@
     <!-- Disable speaker proximity preference for problematic devices -->
     <bool name="config_enabled_speakerprox" translatable="false">true</bool>
 
+    <!-- For this option to exist and work, the parameter name must be defined -->
+    <string name="incall_echo_cancellation_parameter"></string>
+
+    <!-- Paired with the above parameter, the below values will be used as enable/disable values for audiomanager.
+         "incall_echo_cancellation_parameter=incall_echo_cancellation_value" will be sent directly down into the
+         HAL. Size of this array must be exactly 2. -->
+    <string-array name="incall_echo_cancellation_values">
+    </string-array>
 </resources>
