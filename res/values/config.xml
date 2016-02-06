@@ -212,5 +212,4 @@
          HAL. Size of this array must be exactly 2. -->
     <string-array name="incall_echo_cancellation_values">
     </string-array>
-
 </resources>
