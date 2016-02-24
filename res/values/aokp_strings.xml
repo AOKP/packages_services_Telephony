@@ -25,4 +25,8 @@
     <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
     <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
 
+    <!-- Proximity sensor enable -->
+    <string name="proximity_mode_title">Enable proximity sensor</string>
+    <string name="proximity_on_summary">When in call, use proximity sensor to turn off screen</string>
+    <string name="proximity_off_summary">When in call, the screen will remain on</string>
 </resources>
