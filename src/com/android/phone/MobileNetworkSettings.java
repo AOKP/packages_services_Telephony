@@ -68,6 +68,8 @@ import android.widget.TabHost.TabContentFactory;
 import android.widget.TabHost.TabSpec;
 import android.widget.TabHost;
 
+import cyanogenmod.providers.CMSettings;
+
 /**
  * "Mobile network settings" screen.  This preference screen lets you
  * enable/disable mobile data, and control data roaming and other
@@ -104,6 +106,7 @@ public class MobileNetworkSettings extends PreferenceActivity
     private static final String BUTTON_CARRIER_SETTINGS_KEY = "carrier_settings_key";
     private static final String BUTTON_CDMA_SYSTEM_SELECT_KEY = "cdma_system_select_key";
     private static final String PRIMARY_CARD_PROPERTY_NAME = "persist.radio.primarycard";
+    private static final String BUTTON_COLP_KEY = "connected_line_identification_key";
 
     private int preferredNetworkMode = Phone.PREFERRED_NT_MODE;
 
@@ -122,6 +125,7 @@ public class MobileNetworkSettings extends PreferenceActivity
     private SwitchPreference mButtonNationalDataRoam;
     private SwitchPreference mButton4glte;
     private Preference mLteDataServicePref;
+    private SwitchPreference mButtonCOLP;
 
     private static final String iface = "rmnet0"; //TODO: this will go away
     private List<SubscriptionInfo> mActiveSubInfos;
@@ -254,6 +258,9 @@ public class MobileNetworkSettings extends PreferenceActivity
             // Do not disable the preference screen if the user clicks Data roaming.
             return true;
         } else if (preference == mButtonNationalDataRoam) {
+            return true;
+        } else if (preference == mButtonCOLP) {
+            // Do not disable the preference screen if the user clicks COLP
             return true;
         } else {
             // if the button is anything but the simple toggle preference,
@@ -531,6 +538,9 @@ public class MobileNetworkSettings extends PreferenceActivity
 
         mLteDataServicePref = prefSet.findPreference(BUTTON_CDMA_LTE_DATA_SERVICE_KEY);
 
+        mButtonCOLP = (SwitchPreference)findPreference(BUTTON_COLP_KEY);
+        mButtonCOLP.setOnPreferenceChangeListener(this);
+
         // Initialize mActiveSubInfo
         int max = mSubscriptionManager.getActiveSubscriptionInfoCountMax();
         mActiveSubInfos = new ArrayList<SubscriptionInfo>(max);
@@ -623,6 +633,7 @@ public class MobileNetworkSettings extends PreferenceActivity
             prefSet.addPreference(mButtonPreferredNetworkMode);
             prefSet.addPreference(mButtonEnabledNetworks);
             prefSet.addPreference(mButton4glte);
+            prefSet.addPreference(mButtonCOLP);
         }
 
         /** Some carriers required that network mode UI need to be hidden in below conditions:
@@ -877,6 +888,10 @@ public class MobileNetworkSettings extends PreferenceActivity
             root.removePreference(mLteDataServicePref);
             root.removePreference(mButtonEnabledNetworks);
         }
+
+        boolean COLPEnabled = CMSettings.System.getInt(getContentResolver(),
+                    CMSettings.System.CONNECTED_LINE_IDENTIFICATION, 1) != 0;
+        mButtonCOLP.setChecked(COLPEnabled);
     }
 
     @Override
@@ -1028,6 +1043,10 @@ public class MobileNetworkSettings extends PreferenceActivity
         } else if (preference == mButtonNationalDataRoam) {
             android.provider.Settings.System.putInt(mPhone.getContext().getContentResolver(),
                     android.provider.Settings.System.MVNO_ROAMING, (Boolean) objValue ? 1 : 0);
+        } else if (preference == mButtonCOLP) {
+            CMSettings.System.putInt(getContentResolver(),
+                    CMSettings.System.CONNECTED_LINE_IDENTIFICATION,
+                    mButtonCOLP.isChecked() ? 0 : 1);
         }
 
         // always let the preference setting proceed.
