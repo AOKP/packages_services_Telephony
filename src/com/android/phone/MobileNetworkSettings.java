@@ -456,7 +456,8 @@ public class MobileNetworkSettings extends PreferenceActivity
         mUm = (UserManager) getSystemService(Context.USER_SERVICE);
         mSubscriptionManager = SubscriptionManager.from(this);
 
-        if (mUm.hasUserRestriction(UserManager.DISALLOW_CONFIG_MOBILE_NETWORKS)) {
+        if (!mUm.isAdminUser() ||
+                mUm.hasUserRestriction(UserManager.DISALLOW_CONFIG_MOBILE_NETWORKS)) {
             mUnavailable = true;
             setContentView(R.layout.telephony_disallowed_preference_screen);
             return;
@@ -503,7 +504,10 @@ public class MobileNetworkSettings extends PreferenceActivity
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        unregisterReceiver(mPhoneChangeReceiver);
+
+        if (!mUnavailable) {
+            unregisterReceiver(mPhoneChangeReceiver);
+        }
     }
 
     @Override
