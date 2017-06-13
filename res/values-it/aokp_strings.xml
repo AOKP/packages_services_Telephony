@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017 The AOKP Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Setting title for the flip action setting. -->
+    <string name="flip_action_title">Azione di capovolgimento</string>
+
+    <!-- Dialog title of the flip action setting. -->
+    <string name="flip_action_dialog_title">Ruota il dispositivo per\u2026</string>
+
+    <!-- Setting summary for the flip action setting. -->
+    <string name="flip_action_summary">Capovolgere il telefono verso il basso <xliff:g id="action">%s</xliff:g></string>
+
+    <!-- Values for flip action array entries -->
+    <string name="entry_do_nothing">Non fare nulla</string>
+    <string name="entry_mute_ringer">Disattiva suoneria</string>
+    <string name="entry_dismiss_call">Chiudi chiamata</string>
+    <string name="summary_do_nothing">Non fare nulla</string>
+    <string name="summary_mute_ringer">Disattiva la suoneria</string>
+    <string name="summary_dismiss_call">Chiudi la chiamata</string>
+
+    <!-- Mobile network settings screen, setting check box name -->
+    <string name="national_roaming">Roaming dei dati nazionali</string>
+    <!-- Mobile network settings screen, setting summary text when check box is selected -->
+    <string name="national_roaming_enable">Connettersi ai servizi dati quando è in roaming a livello nazionale</string>
+    <!-- Mobile network settings screen, setting summary text when check box is clear -->
+    <string name="national_roaming_disable">Non connettersi ai servizi di dati durante il roaming a livello nazionale</string>
+
+    <!-- Proximity sensor enable -->
+    <string name="proximity_mode_title">Abilita il sensore di prossimità</string>
+    <string name="proximity_on_summary">Durante la chiamata, utilizzare il sensore di prossimità per spegnere lo schermo</string>
+    <string name="proximity_off_summary">Durante la chiamata, lo schermo rimane acceso</string>
+
+    <!-- Proximity speaker -->
+    <string name="display_category_prox_auto_speaker_title">Sensore di prossimità del vivavoce</string>
+    <string name="prox_auto_speaker_title">Attiva automaticamente il vivavoce con il sensore di prossimità</string>
+    <string name="prox_auto_speaker_summary">Attiva automaticamente il vivavoce quando il telefono viene allontanato dall'orecchio</string>
+    <string name="prox_auto_speaker_delay_title">Ritardo vivavoce</string>
+    <string name="prox_auto_speaker_delay_summary">Tempo di ritardo prima che il vivavoce viene attivato</string>
+    <string name="prox_auto_speaker_incall_only_title">Solo durante le chiamate</string>
+    <string name="prox_auto_speaker_incall_only_summary_on">Nelle chiamate in uscita, il vivavoce si attiverà dopo la risposta</string>
+    <string name="prox_auto_speaker_incall_only_summary_off">Il vivavoce sarà attivato per tutte le chiamate (predefinito)</string>
+
+</resources>
